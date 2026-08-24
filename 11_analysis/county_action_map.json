@@ -1,0 +1,10 @@
+{
+  "n_counties": 522,
+  "n_synagogues": 2561,
+  "n_counties_n1": 243,
+  "n_counties_ge5": 104,
+  "max_n": 174,
+  "n_dropped": 109,
+  "min_sample": 0,
+  "source": "keyword_chunks"
+}

@@ -1,0 +1,46 @@
+# Third-party dependencies for cc_web_scraping, compiled by statically scanning
+# all import statements across the repo's .py files (stdlib and local/project
+# modules excluded). Versions pinned to what is currently installed and working
+# in the development environment on 2026-08-24; verify/relax pins as needed.
+
+# --- HTTP / scraping ---
+requests==2.32.3
+beautifulsoup4==4.12.2
+cloudscraper==1.2.71
+selenium==4.47.0
+
+# --- Data / numerics ---
+numpy==2.2.6
+pandas==3.0.3
+scipy==1.16.3
+scikit-learn==1.8.0
+statsmodels==0.14.6
+xgboost==3.2.0
+
+# --- Geospatial ---
+geopandas==1.1.3
+shapely==2.1.2
+pyshp>=3.1.6  # provides the `shapefile` module; not installed locally, version unverified
+
+# --- Plotting / mapping ---
+matplotlib==3.10.9
+plotly==5.9.0
+folium==0.20.0
+branca==0.8.2
+pillow==12.0.0
+
+# --- Database ---
+psycopg2-binary==2.9.12
+
+# --- LLM / embedding APIs ---
+anthropic==0.103.1
+openai==2.8.0
+cohere==6.1.0
+mistralai>=2.9.4  # not installed locally, version unverified
+google-genai==2.7.0
+huggingface-hub==0.36.0
+tokenizers==0.22.1
+torch==2.8.0
+
+# --- Config ---
+python-dotenv==0.21.0

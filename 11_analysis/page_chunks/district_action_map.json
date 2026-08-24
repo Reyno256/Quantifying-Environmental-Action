@@ -1,0 +1,10 @@
+{
+  "n_districts": 383,
+  "n_synagogues": 2555,
+  "n_districts_n1": 73,
+  "n_districts_ge5": 161,
+  "max_n": 51,
+  "n_dropped": 108,
+  "min_sample": 0,
+  "source": "page_chunks"
+}

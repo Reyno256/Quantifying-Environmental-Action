@@ -1,0 +1,2139 @@
+{
+  "source": "page_chunks",
+  "metric": "action chunks per environmentally active synagogue",
+  "denominations": [
+    {
+      "denomination": "Jewish Renewal",
+      "n_total": 25,
+      "n_env_active": 19,
+      "pct_env_active": 76.0,
+      "pct_sd": 8.5,
+      "mean_chunks_all": 15.48,
+      "mean_chunks_per_active": 20.37,
+      "sd_per_active": 21.81
+    },
+    {
+      "denomination": "Reconstructionist",
+      "n_total": 66,
+      "n_env_active": 54,
+      "pct_env_active": 81.8,
+      "pct_sd": 4.7,
+      "mean_chunks_all": 15.94,
+      "mean_chunks_per_active": 19.48,
+      "sd_per_active": 26.05
+    },
+    {
+      "denomination": "Humanistic",
+      "n_total": 22,
+      "n_env_active": 14,
+      "pct_env_active": 63.6,
+      "pct_sd": 10.3,
+      "mean_chunks_all": 13.36,
+      "mean_chunks_per_active": 21.0,
+      "sd_per_active": 26.82
+    },
+    {
+      "denomination": "Reform",
+      "n_total": 550,
+      "n_env_active": 370,
+      "pct_env_active": 67.3,
+      "pct_sd": 2.0,
+      "mean_chunks_all": 8.94,
+      "mean_chunks_per_active": 13.29,
+      "sd_per_active": 17.54
+    },
+    {
+      "denomination": "Non-Denominational Progressive",
+      "n_total": 187,
+      "n_env_active": 122,
+      "pct_env_active": 65.2,
+      "pct_sd": 3.5,
+      "mean_chunks_all": 8.12,
+      "mean_chunks_per_active": 12.44,
+      "sd_per_active": 19.76
+    },
+    {
+      "denomination": "Conservative",
+      "n_total": 402,
+      "n_env_active": 247,
+      "pct_env_active": 61.4,
+      "pct_sd": 2.4,
+      "mean_chunks_all": 6.06,
+      "mean_chunks_per_active": 9.86,
+      "sd_per_active": 13.98
+    },
+    {
+      "denomination": "Non-Denominational Conservative",
+      "n_total": 27,
+      "n_env_active": 12,
+      "pct_env_active": 44.4,
+      "pct_sd": 9.6,
+      "mean_chunks_all": 9.67,
+      "mean_chunks_per_active": 21.75,
+      "sd_per_active": 36.71
+    },
+    {
+      "denomination": "Orthodox",
+      "n_total": 582,
+      "n_env_active": 111,
+      "pct_env_active": 19.1,
+      "pct_sd": 1.6,
+      "mean_chunks_all": 0.9,
+      "mean_chunks_per_active": 4.71,
+      "sd_per_active": 6.87
+    },
+    {
+      "denomination": "Chabad",
+      "n_total": 723,
+      "n_env_active": 378,
+      "pct_env_active": 52.3,
+      "pct_sd": 1.9,
+      "mean_chunks_all": 2.78,
+      "mean_chunks_per_active": 5.33,
+      "sd_per_active": 9.65
+    }
+  ],
+  "kruskal": {
+    "H": 114.10650841990771,
+    "df": 8,
+    "p": 5.4425927019743295e-21,
+    "n_groups": 9,
+    "n_total": 1327
+  },
+  "pairwise_significant": [
+    {
+      "group1": "Reform",
+      "group2": "Chabad",
+      "mean1": 13.286486486486487,
+      "mean2": 5.325396825396825,
+      "stat": 95159.5,
+      "p_raw": 7.87136269600755e-18,
+      "p_bonf": 2.833690570562718e-16,
+      "sig": true
+    },
+    {
+      "group1": "Reform",
+      "group2": "Orthodox",
+      "mean1": 13.286486486486487,
+      "mean2": 4.711711711711712,
+      "stat": 29323.5,
+      "p_raw": 5.915016886758631e-12,
+      "p_bonf": 2.129406079233107e-10,
+      "sig": true
+    },
+    {
+      "group1": "Conservative",
+      "group2": "Chabad",
+      "mean1": 9.862348178137651,
+      "mean2": 5.325396825396825,
+      "stat": 57435.0,
+      "p_raw": 8.558072823765213e-07,
+      "p_bonf": 3.0809062165554764e-05,
+      "sig": true
+    },
+    {
+      "group1": "Conservative",
+      "group2": "Orthodox",
+      "mean1": 9.862348178137651,
+      "mean2": 4.711711711711712,
+      "stat": 18030.5,
+      "p_raw": 1.4405261552229273e-06,
+      "p_bonf": 5.185894158802538e-05,
+      "sig": true
+    },
+    {
+      "group1": "Reconstructionist",
+      "group2": "Chabad",
+      "mean1": 19.48148148148148,
+      "mean2": 5.325396825396825,
+      "stat": 14108.5,
+      "p_raw": 4.127734776535938e-06,
+      "p_bonf": 0.00014859845195529378,
+      "sig": true
+    },
+    {
+      "group1": "Reconstructionist",
+      "group2": "Orthodox",
+      "mean1": 19.48148148148148,
+      "mean2": 4.711711711711712,
+      "stat": 4286.0,
+      "p_raw": 5.31146692249027e-06,
+      "p_bonf": 0.00019121280920964974,
+      "sig": true
+    },
+    {
+      "group1": "Humanistic",
+      "group2": "Chabad",
+      "mean1": 21.0,
+      "mean2": 5.325396825396825,
+      "stat": 4202.0,
+      "p_raw": 0.00015192977691467406,
+      "p_bonf": 0.005469471968928266,
+      "sig": true
+    },
+    {
+      "group1": "Humanistic",
+      "group2": "Orthodox",
+      "mean1": 21.0,
+      "mean2": 4.711711711711712,
+      "stat": 1241.5,
+      "p_raw": 0.00020235399388736694,
+      "p_bonf": 0.00728474377994521,
+      "sig": true
+    },
+    {
+      "group1": "Non-Denominational Progressive",
+      "group2": "Orthodox",
+      "mean1": 12.442622950819672,
+      "mean2": 4.711711711711712,
+      "stat": 8567.0,
+      "p_raw": 0.0003800144559898887,
+      "p_bonf": 0.013680520415635994,
+      "sig": true
+    }
+  ],
+  "kruskal_all_synagogues": {
+    "H": 413.76246004535983,
+    "df": 8,
+    "p": 2.1278853264722295e-84,
+    "n_groups": 9,
+    "n_total": 2584
+  },
+  "dunn_posthoc_bh_all_synagogues": [
+    {
+      "group1": "Reform",
+      "group2": "Orthodox",
+      "n1": 550,
+      "n2": 582,
+      "mean1": 8.938181818181818,
+      "mean2": 0.8986254295532646,
+      "z": 17.57241329735589,
+      "p_raw": 4.007560214679109e-69,
+      "p_adj": 1.4427216772844794e-67,
+      "sig": true
+    },
+    {
+      "group1": "Conservative",
+      "group2": "Orthodox",
+      "n1": 402,
+      "n2": 582,
+      "mean1": 6.059701492537314,
+      "mean2": 0.8986254295532646,
+      "z": 13.147448180171693,
+      "p_raw": 1.7601498687963476e-39,
+      "p_adj": 3.168269763833426e-38,
+      "sig": true
+    },
+    {
+      "group1": "Non-Denominational Progressive",
+      "group2": "Orthodox",
+      "n1": 187,
+      "n2": 582,
+      "mean1": 8.117647058823529,
+      "mean2": 0.8986254295532646,
+      "z": 10.820888412285216,
+      "p_raw": 2.7410732468450303e-27,
+      "p_adj": 3.289287896214037e-26,
+      "sig": true
+    },
+    {
+      "group1": "Reconstructionist",
+      "group2": "Orthodox",
+      "n1": 66,
+      "n2": 582,
+      "mean1": 15.93939393939394,
+      "mean2": 0.8986254295532646,
+      "z": 10.548135174613181,
+      "p_raw": 5.181527901667224e-26,
+      "p_adj": 4.663375111500501e-25,
+      "sig": true
+    },
+    {
+      "group1": "Orthodox",
+      "group2": "Chabad",
+      "n1": 582,
+      "n2": 723,
+      "mean1": 0.8986254295532646,
+      "mean2": 2.784232365145228,
+      "z": -10.25676585707241,
+      "p_raw": 1.103404890857667e-24,
+      "p_adj": 7.944515214175202e-24,
+      "sig": true
+    },
+    {
+      "group1": "Reform",
+      "group2": "Chabad",
+      "n1": 550,
+      "n2": 723,
+      "mean1": 8.938181818181818,
+      "mean2": 2.784232365145228,
+      "z": 8.373850448960575,
+      "p_raw": 5.57655199927925e-17,
+      "p_adj": 3.34593119956755e-16,
+      "sig": true
+    },
+    {
+      "group1": "Jewish Renewal",
+      "group2": "Orthodox",
+      "n1": 25,
+      "n2": 582,
+      "mean1": 15.48,
+      "mean2": 0.8986254295532646,
+      "z": 6.2337033247179825,
+      "p_raw": 4.5553542837199267e-10,
+      "p_adj": 2.342753631627391e-09,
+      "sig": true
+    },
+    {
+      "group1": "Reconstructionist",
+      "group2": "Chabad",
+      "n1": 66,
+      "n2": 723,
+      "mean1": 15.93939393939394,
+      "mean2": 2.784232365145228,
+      "z": 6.212388855166562,
+      "p_raw": 5.218509080161866e-10,
+      "p_adj": 2.34832908607284e-09,
+      "sig": true
+    },
+    {
+      "group1": "Humanistic",
+      "group2": "Orthodox",
+      "n1": 22,
+      "n2": 582,
+      "mean1": 13.363636363636363,
+      "mean2": 0.8986254295532646,
+      "z": 5.081773367785942,
+      "p_raw": 3.7392738718858766e-07,
+      "p_adj": 1.4957095487543506e-06,
+      "sig": true
+    },
+    {
+      "group1": "Conservative",
+      "group2": "Chabad",
+      "n1": 402,
+      "n2": 723,
+      "mean1": 6.059701492537314,
+      "mean2": 2.784232365145228,
+      "z": 4.523706956092385,
+      "p_raw": 6.0765844225828705e-06,
+      "p_adj": 2.1875703921298332e-05,
+      "sig": true
+    },
+    {
+      "group1": "Non-Denominational Progressive",
+      "group2": "Chabad",
+      "n1": 187,
+      "n2": 723,
+      "mean1": 8.117647058823529,
+      "mean2": 2.784232365145228,
+      "z": 4.124649178708718,
+      "p_raw": 3.713002720861969e-05,
+      "p_adj": 0.00012151645268275533,
+      "sig": true
+    },
+    {
+      "group1": "Reconstructionist",
+      "group2": "Conservative",
+      "n1": 66,
+      "n2": 402,
+      "mean1": 15.93939393939394,
+      "mean2": 6.059701492537314,
+      "z": 3.8956610500265714,
+      "p_raw": 9.793126342478072e-05,
+      "p_adj": 0.0002937937902743422,
+      "sig": true
+    },
+    {
+      "group1": "Jewish Renewal",
+      "group2": "Chabad",
+      "n1": 25,
+      "n2": 723,
+      "mean1": 15.48,
+      "mean2": 2.784232365145228,
+      "z": 3.451043381010577,
+      "p_raw": 0.0005584238029737611,
+      "p_adj": 0.0015344706070151298,
+      "sig": true
+    },
+    {
+      "group1": "Reconstructionist",
+      "group2": "Non-Denominational Conservative",
+      "n1": 66,
+      "n2": 27,
+      "mean1": 15.93939393939394,
+      "mean2": 9.666666666666666,
+      "z": 3.4330924571876373,
+      "p_raw": 0.0005967385693947727,
+      "p_adj": 0.0015344706070151298,
+      "sig": true
+    },
+    {
+      "group1": "Reconstructionist",
+      "group2": "Non-Denominational Progressive",
+      "n1": 66,
+      "n2": 187,
+      "mean1": 15.93939393939394,
+      "mean2": 8.117647058823529,
+      "z": 3.215942266508557,
+      "p_raw": 0.001300169855772897,
+      "p_adj": 0.0031204076538549528,
+      "sig": true
+    },
+    {
+      "group1": "Non-Denominational Conservative",
+      "group2": "Orthodox",
+      "n1": 27,
+      "n2": 582,
+      "mean1": 9.666666666666666,
+      "mean2": 0.8986254295532646,
+      "z": 2.9753876488382756,
+      "p_raw": 0.002926185158009454,
+      "p_adj": 0.0065839166055212716,
+      "sig": true
+    },
+    {
+      "group1": "Reform",
+      "group2": "Conservative",
+      "n1": 550,
+      "n2": 402,
+      "mean1": 8.938181818181818,
+      "mean2": 6.059701492537314,
+      "z": 2.9313760311506964,
+      "p_raw": 0.0033746402512316383,
+      "p_adj": 0.007146297002608175,
+      "sig": true
+    },
+    {
+      "group1": "Reconstructionist",
+      "group2": "Reform",
+      "n1": 66,
+      "n2": 550,
+      "mean1": 15.93939393939394,
+      "mean2": 8.938181818181818,
+      "z": 2.4951658756884925,
+      "p_raw": 0.012589826126896365,
+      "p_adj": 0.024964988826949988,
+      "sig": true
+    },
+    {
+      "group1": "Humanistic",
+      "group2": "Chabad",
+      "n1": 22,
+      "n2": 723,
+      "mean1": 13.363636363636363,
+      "mean2": 2.784232365145228,
+      "z": 2.4606272400961253,
+      "p_raw": 0.013869438237194439,
+      "p_adj": 0.024964988826949988,
+      "sig": true
+    },
+    {
+      "group1": "Jewish Renewal",
+      "group2": "Non-Denominational Conservative",
+      "n1": 25,
+      "n2": 27,
+      "mean1": 15.48,
+      "mean2": 9.666666666666666,
+      "z": 2.476949524475667,
+      "p_raw": 0.013251064048368868,
+      "p_adj": 0.024964988826949988,
+      "sig": true
+    },
+    {
+      "group1": "Reform",
+      "group2": "Non-Denominational Conservative",
+      "n1": 550,
+      "n2": 27,
+      "mean1": 8.938181818181818,
+      "mean2": 9.666666666666666,
+      "z": 2.329800100493918,
+      "p_raw": 0.019816718861910873,
+      "p_adj": 0.03397151804899007,
+      "sig": true
+    }
+  ],
+  "category_composition_per_active": {
+    "Jewish Renewal": {
+      "Community": 4.579,
+      "Spirituality & Worship": 8.263,
+      "Kitchen": 3.474,
+      "Waste": 0.316,
+      "Energy": 0.0,
+      "Operations & Maintenance": 0.368,
+      "Environmental & Climate Justice": 3.368,
+      "Water": 0.0,
+      "Other": 0.0
+    },
+    "Reconstructionist": {
+      "Community": 4.778,
+      "Spirituality & Worship": 7.63,
+      "Kitchen": 3.685,
+      "Waste": 0.944,
+      "Energy": 0.926,
+      "Operations & Maintenance": 0.704,
+      "Environmental & Climate Justice": 0.759,
+      "Water": 0.037,
+      "Other": 0.019
+    },
+    "Humanistic": {
+      "Community": 9.5,
+      "Spirituality & Worship": 8.643,
+      "Kitchen": 1.929,
+      "Waste": 0.214,
+      "Energy": 0.143,
+      "Operations & Maintenance": 0.0,
+      "Environmental & Climate Justice": 0.571,
+      "Water": 0.0,
+      "Other": 0.0
+    },
+    "Reform": {
+      "Community": 4.281,
+      "Spirituality & Worship": 6.084,
+      "Kitchen": 0.743,
+      "Waste": 0.83,
+      "Energy": 0.414,
+      "Operations & Maintenance": 0.508,
+      "Environmental & Climate Justice": 0.327,
+      "Water": 0.043,
+      "Other": 0.057
+    },
+    "Non-Denominational Progressive": {
+      "Community": 3.385,
+      "Spirituality & Worship": 6.205,
+      "Kitchen": 0.811,
+      "Waste": 0.221,
+      "Energy": 0.098,
+      "Operations & Maintenance": 1.262,
+      "Environmental & Climate Justice": 0.418,
+      "Water": 0.016,
+      "Other": 0.025
+    },
+    "Conservative": {
+      "Community": 2.765,
+      "Spirituality & Worship": 4.599,
+      "Kitchen": 0.696,
+      "Waste": 0.664,
+      "Energy": 0.575,
+      "Operations & Maintenance": 0.413,
+      "Environmental & Climate Justice": 0.097,
+      "Water": 0.016,
+      "Other": 0.036
+    },
+    "Non-Denominational Conservative": {
+      "Community": 2.167,
+      "Spirituality & Worship": 16.833,
+      "Kitchen": 1.75,
+      "Waste": 0.167,
+      "Energy": 0.0,
+      "Operations & Maintenance": 0.083,
+      "Environmental & Climate Justice": 0.75,
+      "Water": 0.0,
+      "Other": 0.0
+    },
+    "Orthodox": {
+      "Community": 0.883,
+      "Spirituality & Worship": 1.892,
+      "Kitchen": 0.486,
+      "Waste": 0.396,
+      "Energy": 0.117,
+      "Operations & Maintenance": 0.829,
+      "Environmental & Climate Justice": 0.09,
+      "Water": 0.009,
+      "Other": 0.009
+    },
+    "Chabad": {
+      "Community": 1.833,
+      "Spirituality & Worship": 3.05,
+      "Kitchen": 0.101,
+      "Waste": 0.056,
+      "Energy": 0.037,
+      "Operations & Maintenance": 0.238,
+      "Environmental & Climate Justice": 0.0,
+      "Water": 0.011,
+      "Other": 0.0
+    }
+  },
+  "framing_composition_per_active": {
+    "Jewish Renewal": {
+      "Implicit": 8.0,
+      "Explicit": 7.526,
+      "Embedded": 4.842
+    },
+    "Reconstructionist": {
+      "Implicit": 7.944,
+      "Explicit": 7.389,
+      "Embedded": 4.148
+    },
+    "Humanistic": {
+      "Implicit": 1.143,
+      "Explicit": 16.143,
+      "Embedded": 3.714
+    },
+    "Reform": {
+      "Implicit": 4.949,
+      "Explicit": 4.603,
+      "Embedded": 3.735
+    },
+    "Non-Denominational Progressive": {
+      "Implicit": 3.443,
+      "Explicit": 5.459,
+      "Embedded": 3.541
+    },
+    "Conservative": {
+      "Implicit": 3.879,
+      "Explicit": 2.895,
+      "Embedded": 3.089
+    },
+    "Non-Denominational Conservative": {
+      "Implicit": 2.583,
+      "Explicit": 5.833,
+      "Embedded": 13.333
+    },
+    "Orthodox": {
+      "Implicit": 1.955,
+      "Explicit": 1.108,
+      "Embedded": 1.649
+    },
+    "Chabad": {
+      "Implicit": 1.029,
+      "Explicit": 1.005,
+      "Embedded": 3.291
+    }
+  },
+  "denomination_prevalence_by_party": {
+    "Dem": {
+      "n_synagogues": 1810,
+      "pct_by_denomination": {
+        "Jewish Renewal": 0.8,
+        "Reconstructionist": 2.8,
+        "Humanistic": 0.8,
+        "Reform": 18.5,
+        "Non-Denominational Progressive": 6.7,
+        "Conservative": 15.2,
+        "Non-Denominational Conservative": 1.0,
+        "Orthodox": 27.2,
+        "Chabad": 27.0
+      }
+    },
+    "Rep": {
+      "n_synagogues": 654,
+      "pct_by_denomination": {
+        "Jewish Renewal": 0.9,
+        "Reconstructionist": 1.8,
+        "Humanistic": 0.2,
+        "Reform": 31.3,
+        "Non-Denominational Progressive": 7.3,
+        "Conservative": 19.0,
+        "Non-Denominational Conservative": 0.6,
+        "Orthodox": 12.5,
+        "Chabad": 26.3
+      }
+    }
+  },
+  "proportion_tests": {
+    "spirituality_worship_share_of_actions": {
+      "n_denominations_tested": 9,
+      "n_synagogues": 1327,
+      "kruskal": {
+        "H": 22.824563317849545,
+        "df": 8,
+        "p": 0.0035969418653032863,
+        "n_groups": 9,
+        "n_total": 1327
+      },
+      "group_stats": [
+        {
+          "denomination": "Jewish Renewal",
+          "n": 19,
+          "mean": 0.4706,
+          "median": 0.5
+        },
+        {
+          "denomination": "Reconstructionist",
+          "n": 54,
+          "mean": 0.3326,
+          "median": 0.2614
+        },
+        {
+          "denomination": "Humanistic",
+          "n": 14,
+          "mean": 0.4256,
+          "median": 0.3394
+        },
+        {
+          "denomination": "Reform",
+          "n": 370,
+          "mean": 0.5041,
+          "median": 0.5
+        },
+        {
+          "denomination": "Non-Denominational Progressive",
+          "n": 122,
+          "mean": 0.4268,
+          "median": 0.3333
+        },
+        {
+          "denomination": "Conservative",
+          "n": 247,
+          "mean": 0.4937,
+          "median": 0.5
+        },
+        {
+          "denomination": "Non-Denominational Conservative",
+          "n": 12,
+          "mean": 0.51,
+          "median": 0.619
+        },
+        {
+          "denomination": "Orthodox",
+          "n": 111,
+          "mean": 0.5464,
+          "median": 0.6
+        },
+        {
+          "denomination": "Chabad",
+          "n": 378,
+          "mean": 0.5468,
+          "median": 0.6
+        }
+      ],
+      "dunn_posthoc_bh": [
+        {
+          "group1": "Reconstructionist",
+          "group2": "Chabad",
+          "n1": 54,
+          "n2": 378,
+          "mean1": 0.332628,
+          "mean2": 0.546796,
+          "z": -3.832173,
+          "p_raw": 0.000127,
+          "p_adj": 0.004573,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Orthodox",
+          "n1": 54,
+          "n2": 111,
+          "mean1": 0.332628,
+          "mean2": 0.546405,
+          "z": -3.378276,
+          "p_raw": 0.000729,
+          "p_adj": 0.01313,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Reform",
+          "n1": 54,
+          "n2": 370,
+          "mean1": 0.332628,
+          "mean2": 0.504143,
+          "z": -3.129487,
+          "p_raw": 0.001751,
+          "p_adj": 0.021013,
+          "sig": true
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Chabad",
+          "n1": 122,
+          "n2": 378,
+          "mean1": 0.426771,
+          "mean2": 0.546796,
+          "z": -3.038658,
+          "p_raw": 0.002376,
+          "p_adj": 0.021387,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Conservative",
+          "n1": 54,
+          "n2": 247,
+          "mean1": 0.332628,
+          "mean2": 0.493705,
+          "z": -2.85715,
+          "p_raw": 0.004275,
+          "p_adj": 0.030777,
+          "sig": true
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Orthodox",
+          "n1": 122,
+          "n2": 111,
+          "mean1": 0.426771,
+          "mean2": 0.546405,
+          "z": -2.435059,
+          "p_raw": 0.014889,
+          "p_adj": 0.089336,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Non-Denominational Progressive",
+          "n1": 370,
+          "n2": 122,
+          "mean1": 0.504143,
+          "mean2": 0.426771,
+          "z": 2.057392,
+          "p_raw": 0.039649,
+          "p_adj": 0.203907,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Conservative",
+          "n1": 122,
+          "n2": 247,
+          "mean1": 0.426771,
+          "mean2": 0.493705,
+          "z": -1.699962,
+          "p_raw": 0.089138,
+          "p_adj": 0.401122,
+          "sig": false
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Chabad",
+          "n1": 247,
+          "n2": 378,
+          "mean1": 0.493705,
+          "mean2": 0.546796,
+          "z": -1.567981,
+          "p_raw": 0.116886,
+          "p_adj": 0.467543,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Non-Denominational Progressive",
+          "n1": 54,
+          "n2": 122,
+          "mean1": 0.332628,
+          "mean2": 0.426771,
+          "z": -1.475062,
+          "p_raw": 0.140196,
+          "p_adj": 0.504705,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Chabad",
+          "n1": 370,
+          "n2": 378,
+          "mean1": 0.504143,
+          "mean2": 0.546796,
+          "z": -1.389429,
+          "p_raw": 0.164702,
+          "p_adj": 0.539026,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Non-Denominational Conservative",
+          "n1": 54,
+          "n2": 12,
+          "mean1": 0.332628,
+          "mean2": 0.510022,
+          "z": -1.32779,
+          "p_raw": 0.184247,
+          "p_adj": 0.544053,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Reconstructionist",
+          "n1": 19,
+          "n2": 54,
+          "mean1": 0.470648,
+          "mean2": 0.332628,
+          "z": 1.291693,
+          "p_raw": 0.196464,
+          "p_adj": 0.544053,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Chabad",
+          "n1": 14,
+          "n2": 378,
+          "mean1": 0.425567,
+          "mean2": 0.546796,
+          "z": -1.103366,
+          "p_raw": 0.269868,
+          "p_adj": 0.640984,
+          "sig": false
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Orthodox",
+          "n1": 247,
+          "n2": 111,
+          "mean1": 0.493705,
+          "mean2": 0.546405,
+          "z": -1.148974,
+          "p_raw": 0.250567,
+          "p_adj": 0.640984,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Orthodox",
+          "n1": 14,
+          "n2": 111,
+          "mean1": 0.425567,
+          "mean2": 0.546405,
+          "z": -1.069417,
+          "p_raw": 0.284882,
+          "p_adj": 0.640984,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Chabad",
+          "n1": 19,
+          "n2": 378,
+          "mean1": 0.470648,
+          "mean2": 0.546796,
+          "z": -0.905757,
+          "p_raw": 0.365064,
+          "p_adj": 0.704015,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Orthodox",
+          "n1": 19,
+          "n2": 111,
+          "mean1": 0.470648,
+          "mean2": 0.546405,
+          "z": -0.869834,
+          "p_raw": 0.384391,
+          "p_adj": 0.704015,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Orthodox",
+          "n1": 370,
+          "n2": 111,
+          "mean1": 0.504143,
+          "mean2": 0.546405,
+          "z": -0.96669,
+          "p_raw": 0.333699,
+          "p_adj": 0.704015,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Humanistic",
+          "n1": 54,
+          "n2": 14,
+          "mean1": 0.332628,
+          "mean2": 0.425567,
+          "z": -0.857589,
+          "p_raw": 0.39112,
+          "p_adj": 0.704015,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Reform",
+          "n1": 14,
+          "n2": 370,
+          "mean1": 0.425567,
+          "mean2": 0.504143,
+          "z": -0.729742,
+          "p_raw": 0.465548,
+          "p_adj": 0.798082,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Non-Denominational Conservative",
+          "n1": 122,
+          "n2": 12,
+          "mean1": 0.426771,
+          "mean2": 0.510022,
+          "z": -0.60375,
+          "p_raw": 0.54601,
+          "p_adj": 0.854624,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Conservative",
+          "n1": 14,
+          "n2": 247,
+          "mean1": 0.425567,
+          "mean2": 0.493705,
+          "z": -0.626103,
+          "p_raw": 0.531247,
+          "p_adj": 0.854624,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Non-Denominational Conservative",
+          "n1": 14,
+          "n2": 12,
+          "mean1": 0.425567,
+          "mean2": 0.510022,
+          "z": -0.423371,
+          "p_raw": 0.672025,
+          "p_adj": 0.867715,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Conservative",
+          "group2": "Chabad",
+          "n1": 12,
+          "n2": 378,
+          "mean1": 0.510022,
+          "mean2": 0.546796,
+          "z": -0.456123,
+          "p_raw": 0.648302,
+          "p_adj": 0.867715,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Non-Denominational Progressive",
+          "n1": 19,
+          "n2": 122,
+          "mean1": 0.470648,
+          "mean2": 0.426771,
+          "z": 0.419447,
+          "p_raw": 0.674889,
+          "p_adj": 0.867715,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Reform",
+          "n1": 19,
+          "n2": 370,
+          "mean1": 0.470648,
+          "mean2": 0.504143,
+          "z": -0.473329,
+          "p_raw": 0.635978,
+          "p_adj": 0.867715,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Conservative",
+          "group2": "Orthodox",
+          "n1": 12,
+          "n2": 111,
+          "mean1": 0.510022,
+          "mean2": 0.546405,
+          "z": -0.450015,
+          "p_raw": 0.6527,
+          "p_adj": 0.867715,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Conservative",
+          "n1": 19,
+          "n2": 247,
+          "mean1": 0.470648,
+          "mean2": 0.493705,
+          "z": -0.355623,
+          "p_raw": 0.722123,
+          "p_adj": 0.894514,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Conservative",
+          "n1": 370,
+          "n2": 247,
+          "mean1": 0.504143,
+          "mean2": 0.493705,
+          "z": 0.324673,
+          "p_raw": 0.745428,
+          "p_adj": 0.894514,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Non-Denominational Conservative",
+          "n1": 19,
+          "n2": 12,
+          "mean1": 0.470648,
+          "mean2": 0.510022,
+          "z": -0.214811,
+          "p_raw": 0.829914,
+          "p_adj": 0.933654,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Humanistic",
+          "n1": 19,
+          "n2": 14,
+          "mean1": 0.470648,
+          "mean2": 0.425567,
+          "z": 0.247982,
+          "p_raw": 0.804148,
+          "p_adj": 0.933654,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Non-Denominational Conservative",
+          "n1": 370,
+          "n2": 12,
+          "mean1": 0.504143,
+          "mean2": 0.510022,
+          "z": 0.109553,
+          "p_raw": 0.912764,
+          "p_adj": 0.985272,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Non-Denominational Progressive",
+          "n1": 14,
+          "n2": 122,
+          "mean1": 0.425567,
+          "mean2": 0.426771,
+          "z": 0.057074,
+          "p_raw": 0.954486,
+          "p_adj": 0.985272,
+          "sig": false
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Non-Denominational Conservative",
+          "n1": 247,
+          "n2": 12,
+          "mean1": 0.493705,
+          "mean2": 0.510022,
+          "z": 0.01846,
+          "p_raw": 0.985272,
+          "p_adj": 0.985272,
+          "sig": false
+        },
+        {
+          "group1": "Orthodox",
+          "group2": "Chabad",
+          "n1": 111,
+          "n2": 378,
+          "mean1": 0.546405,
+          "mean2": 0.546796,
+          "z": 0.027835,
+          "p_raw": 0.977794,
+          "p_adj": 0.985272,
+          "sig": false
+        }
+      ]
+    },
+    "embedded_share_of_framed_actions": {
+      "n_denominations_tested": 9,
+      "n_synagogues": 1327,
+      "kruskal": {
+        "H": 79.64164749064403,
+        "df": 8,
+        "p": 5.771968494397012e-14,
+        "n_groups": 9,
+        "n_total": 1327
+      },
+      "group_stats": [
+        {
+          "denomination": "Jewish Renewal",
+          "n": 19,
+          "mean": 0.2785,
+          "median": 0.2128
+        },
+        {
+          "denomination": "Reconstructionist",
+          "n": 54,
+          "mean": 0.2372,
+          "median": 0.1061
+        },
+        {
+          "denomination": "Humanistic",
+          "n": 14,
+          "mean": 0.2608,
+          "median": 0.1548
+        },
+        {
+          "denomination": "Reform",
+          "n": 370,
+          "mean": 0.3606,
+          "median": 0.2857
+        },
+        {
+          "denomination": "Non-Denominational Progressive",
+          "n": 122,
+          "mean": 0.3408,
+          "median": 0.2929
+        },
+        {
+          "denomination": "Conservative",
+          "n": 247,
+          "mean": 0.3635,
+          "median": 0.3333
+        },
+        {
+          "denomination": "Non-Denominational Conservative",
+          "n": 12,
+          "mean": 0.3462,
+          "median": 0.25
+        },
+        {
+          "denomination": "Orthodox",
+          "n": 111,
+          "mean": 0.4342,
+          "median": 0.3333
+        },
+        {
+          "denomination": "Chabad",
+          "n": 378,
+          "mean": 0.5698,
+          "median": 0.6667
+        }
+      ],
+      "dunn_posthoc_bh": [
+        {
+          "group1": "Reform",
+          "group2": "Chabad",
+          "n1": 370,
+          "n2": 378,
+          "mean1": 0.360644,
+          "mean2": 0.569829,
+          "z": -6.598268,
+          "p_raw": 0.0,
+          "p_adj": 0.0,
+          "sig": true
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Chabad",
+          "n1": 247,
+          "n2": 378,
+          "mean1": 0.363496,
+          "mean2": 0.569829,
+          "z": -6.117633,
+          "p_raw": 0.0,
+          "p_adj": 0.0,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Chabad",
+          "n1": 54,
+          "n2": 378,
+          "mean1": 0.237164,
+          "mean2": 0.569829,
+          "z": -5.50658,
+          "p_raw": 0.0,
+          "p_adj": 0.0,
+          "sig": true
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Chabad",
+          "n1": 122,
+          "n2": 378,
+          "mean1": 0.340773,
+          "mean2": 0.569829,
+          "z": -5.393384,
+          "p_raw": 0.0,
+          "p_adj": 1e-06,
+          "sig": true
+        },
+        {
+          "group1": "Orthodox",
+          "group2": "Chabad",
+          "n1": 111,
+          "n2": 378,
+          "mean1": 0.434232,
+          "mean2": 0.569829,
+          "z": -3.663851,
+          "p_raw": 0.000248,
+          "p_adj": 0.001789,
+          "sig": true
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Chabad",
+          "n1": 19,
+          "n2": 378,
+          "mean1": 0.278536,
+          "mean2": 0.569829,
+          "z": -3.054281,
+          "p_raw": 0.002256,
+          "p_adj": 0.013536,
+          "sig": true
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Chabad",
+          "n1": 14,
+          "n2": 378,
+          "mean1": 0.260845,
+          "mean2": 0.569829,
+          "z": -2.547445,
+          "p_raw": 0.010851,
+          "p_adj": 0.055808,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Orthodox",
+          "n1": 54,
+          "n2": 111,
+          "mean1": 0.237164,
+          "mean2": 0.434232,
+          "z": -2.444363,
+          "p_raw": 0.014511,
+          "p_adj": 0.065299,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Reform",
+          "n1": 54,
+          "n2": 370,
+          "mean1": 0.237164,
+          "mean2": 0.360644,
+          "z": -2.186707,
+          "p_raw": 0.028764,
+          "p_adj": 0.115056,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Conservative",
+          "group2": "Chabad",
+          "n1": 12,
+          "n2": 378,
+          "mean1": 0.346225,
+          "mean2": 0.569829,
+          "z": -2.05686,
+          "p_raw": 0.0397,
+          "p_adj": 0.142919,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Conservative",
+          "n1": 54,
+          "n2": 247,
+          "mean1": 0.237164,
+          "mean2": 0.363496,
+          "z": -2.000757,
+          "p_raw": 0.045419,
+          "p_adj": 0.148643,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Non-Denominational Progressive",
+          "n1": 54,
+          "n2": 122,
+          "mean1": 0.237164,
+          "mean2": 0.340773,
+          "z": -1.465285,
+          "p_raw": 0.142843,
+          "p_adj": 0.428529,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Orthodox",
+          "n1": 122,
+          "n2": 111,
+          "mean1": 0.340773,
+          "mean2": 0.434232,
+          "z": -1.265959,
+          "p_raw": 0.205528,
+          "p_adj": 0.5285,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Orthodox",
+          "n1": 19,
+          "n2": 111,
+          "mean1": 0.278536,
+          "mean2": 0.434232,
+          "z": -1.299201,
+          "p_raw": 0.193875,
+          "p_adj": 0.5285,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Orthodox",
+          "n1": 14,
+          "n2": 111,
+          "mean1": 0.260845,
+          "mean2": 0.434232,
+          "z": -1.049985,
+          "p_raw": 0.293725,
+          "p_adj": 0.70494,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Reform",
+          "n1": 19,
+          "n2": 370,
+          "mean1": 0.278536,
+          "mean2": 0.360644,
+          "z": -1.001366,
+          "p_raw": 0.31665,
+          "p_adj": 0.712463,
+          "sig": false
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Orthodox",
+          "n1": 247,
+          "n2": 111,
+          "mean1": 0.363496,
+          "mean2": 0.434232,
+          "z": -0.918824,
+          "p_raw": 0.358188,
+          "p_adj": 0.721592,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Conservative",
+          "n1": 19,
+          "n2": 247,
+          "mean1": 0.278536,
+          "mean2": 0.363496,
+          "z": -0.913849,
+          "p_raw": 0.360796,
+          "p_adj": 0.721592,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Reform",
+          "n1": 14,
+          "n2": 370,
+          "mean1": 0.260845,
+          "mean2": 0.360644,
+          "z": -0.774178,
+          "p_raw": 0.438825,
+          "p_adj": 0.769606,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Orthodox",
+          "n1": 370,
+          "n2": 111,
+          "mean1": 0.360644,
+          "mean2": 0.434232,
+          "z": -0.803967,
+          "p_raw": 0.421416,
+          "p_adj": 0.769606,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Non-Denominational Progressive",
+          "n1": 370,
+          "n2": 122,
+          "mean1": 0.360644,
+          "mean2": 0.340773,
+          "z": 0.757189,
+          "p_raw": 0.448937,
+          "p_adj": 0.769606,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Conservative",
+          "group2": "Orthodox",
+          "n1": 12,
+          "n2": 111,
+          "mean1": 0.346225,
+          "mean2": 0.434232,
+          "z": -0.683103,
+          "p_raw": 0.494542,
+          "p_adj": 0.770458,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Conservative",
+          "n1": 14,
+          "n2": 247,
+          "mean1": 0.260845,
+          "mean2": 0.363496,
+          "z": -0.70177,
+          "p_raw": 0.482823,
+          "p_adj": 0.770458,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Non-Denominational Conservative",
+          "n1": 54,
+          "n2": 12,
+          "mean1": 0.237164,
+          "mean2": 0.346225,
+          "z": -0.620331,
+          "p_raw": 0.53504,
+          "p_adj": 0.770458,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Non-Denominational Progressive",
+          "n1": 19,
+          "n2": 122,
+          "mean1": 0.278536,
+          "mean2": 0.340773,
+          "z": -0.634555,
+          "p_raw": 0.525719,
+          "p_adj": 0.770458,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Conservative",
+          "n1": 122,
+          "n2": 247,
+          "mean1": 0.340773,
+          "mean2": 0.363496,
+          "z": -0.551812,
+          "p_raw": 0.581077,
+          "p_adj": 0.804568,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Non-Denominational Conservative",
+          "n1": 370,
+          "n2": 12,
+          "mean1": 0.360644,
+          "mean2": 0.346225,
+          "z": 0.411071,
+          "p_raw": 0.681021,
+          "p_adj": 0.850151,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Non-Denominational Progressive",
+          "n1": 14,
+          "n2": 122,
+          "mean1": 0.260845,
+          "mean2": 0.340773,
+          "z": -0.466849,
+          "p_raw": 0.640608,
+          "p_adj": 0.850151,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Humanistic",
+          "n1": 54,
+          "n2": 14,
+          "mean1": 0.237164,
+          "mean2": 0.260845,
+          "z": -0.359315,
+          "p_raw": 0.71936,
+          "p_adj": 0.850151,
+          "sig": false
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Non-Denominational Conservative",
+          "n1": 247,
+          "n2": 12,
+          "mean1": 0.363496,
+          "mean2": 0.346225,
+          "z": 0.347041,
+          "p_raw": 0.728561,
+          "p_adj": 0.850151,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Non-Denominational Conservative",
+          "n1": 19,
+          "n2": 12,
+          "mean1": 0.278536,
+          "mean2": 0.346225,
+          "z": -0.31182,
+          "p_raw": 0.755177,
+          "p_adj": 0.850151,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Reconstructionist",
+          "n1": 19,
+          "n2": 54,
+          "mean1": 0.278536,
+          "mean2": 0.237164,
+          "z": 0.311146,
+          "p_raw": 0.755689,
+          "p_adj": 0.850151,
+          "sig": false
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Non-Denominational Conservative",
+          "n1": 14,
+          "n2": 12,
+          "mean1": 0.260845,
+          "mean2": 0.346225,
+          "z": -0.229313,
+          "p_raw": 0.818626,
+          "p_adj": 0.87534,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Conservative",
+          "n1": 370,
+          "n2": 247,
+          "mean1": 0.360644,
+          "mean2": 0.363496,
+          "z": 0.218923,
+          "p_raw": 0.82671,
+          "p_adj": 0.87534,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Non-Denominational Conservative",
+          "n1": 122,
+          "n2": 12,
+          "mean1": 0.340773,
+          "mean2": 0.346225,
+          "z": 0.137252,
+          "p_raw": 0.890832,
+          "p_adj": 0.916284,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Humanistic",
+          "n1": 19,
+          "n2": 14,
+          "mean1": 0.278536,
+          "mean2": 0.260845,
+          "z": -0.070318,
+          "p_raw": 0.94394,
+          "p_adj": 0.94394,
+          "sig": false
+        }
+      ]
+    },
+    "explicit_share_of_framed_actions": {
+      "n_denominations_tested": 9,
+      "n_synagogues": 1327,
+      "kruskal": {
+        "H": 58.73613404589466,
+        "df": 8,
+        "p": 8.244268628927627e-10,
+        "n_groups": 9,
+        "n_total": 1327
+      },
+      "group_stats": [
+        {
+          "denomination": "Jewish Renewal",
+          "n": 19,
+          "mean": 0.4364,
+          "median": 0.3333
+        },
+        {
+          "denomination": "Reconstructionist",
+          "n": 54,
+          "mean": 0.3915,
+          "median": 0.4
+        },
+        {
+          "denomination": "Humanistic",
+          "n": 14,
+          "mean": 0.606,
+          "median": 0.7115
+        },
+        {
+          "denomination": "Reform",
+          "n": 370,
+          "mean": 0.2883,
+          "median": 0.25
+        },
+        {
+          "denomination": "Non-Denominational Progressive",
+          "n": 122,
+          "mean": 0.2884,
+          "median": 0.2381
+        },
+        {
+          "denomination": "Conservative",
+          "n": 247,
+          "mean": 0.2834,
+          "median": 0.1667
+        },
+        {
+          "denomination": "Non-Denominational Conservative",
+          "n": 12,
+          "mean": 0.2097,
+          "median": 0.0
+        },
+        {
+          "denomination": "Orthodox",
+          "n": 111,
+          "mean": 0.1812,
+          "median": 0.0
+        },
+        {
+          "denomination": "Chabad",
+          "n": 378,
+          "mean": 0.2338,
+          "median": 0.1073
+        }
+      ],
+      "dunn_posthoc_bh": [
+        {
+          "group1": "Reconstructionist",
+          "group2": "Orthodox",
+          "n1": 54,
+          "n2": 111,
+          "mean1": 0.391522,
+          "mean2": 0.181203,
+          "z": 5.083407,
+          "p_raw": 0.0,
+          "p_adj": 1.3e-05,
+          "sig": true
+        },
+        {
+          "group1": "Reform",
+          "group2": "Orthodox",
+          "n1": 370,
+          "n2": 111,
+          "mean1": 0.288334,
+          "mean2": 0.181203,
+          "z": 4.766676,
+          "p_raw": 2e-06,
+          "p_adj": 3.4e-05,
+          "sig": true
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Orthodox",
+          "n1": 14,
+          "n2": 111,
+          "mean1": 0.60598,
+          "mean2": 0.181203,
+          "z": 4.594238,
+          "p_raw": 4e-06,
+          "p_adj": 5.2e-05,
+          "sig": true
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Orthodox",
+          "n1": 247,
+          "n2": 111,
+          "mean1": 0.283359,
+          "mean2": 0.181203,
+          "z": 3.950822,
+          "p_raw": 7.8e-05,
+          "p_adj": 0.000561,
+          "sig": true
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Orthodox",
+          "n1": 19,
+          "n2": 111,
+          "mean1": 0.436444,
+          "mean2": 0.181203,
+          "z": 3.999889,
+          "p_raw": 6.3e-05,
+          "p_adj": 0.000561,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Chabad",
+          "n1": 54,
+          "n2": 378,
+          "mean1": 0.391522,
+          "mean2": 0.233762,
+          "z": 3.884217,
+          "p_raw": 0.000103,
+          "p_adj": 0.000616,
+          "sig": true
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Chabad",
+          "n1": 14,
+          "n2": 378,
+          "mean1": 0.60598,
+          "mean2": 0.233762,
+          "z": 3.764828,
+          "p_raw": 0.000167,
+          "p_adj": 0.000857,
+          "sig": true
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Orthodox",
+          "n1": 122,
+          "n2": 111,
+          "mean1": 0.288419,
+          "mean2": 0.181203,
+          "z": 3.484751,
+          "p_raw": 0.000493,
+          "p_adj": 0.002217,
+          "sig": true
+        },
+        {
+          "group1": "Reform",
+          "group2": "Chabad",
+          "n1": 370,
+          "n2": 378,
+          "mean1": 0.288334,
+          "mean2": 0.233762,
+          "z": 3.247765,
+          "p_raw": 0.001163,
+          "p_adj": 0.004653,
+          "sig": true
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Conservative",
+          "n1": 14,
+          "n2": 247,
+          "mean1": 0.60598,
+          "mean2": 0.283359,
+          "z": 3.099526,
+          "p_raw": 0.001938,
+          "p_adj": 0.006978,
+          "sig": true
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Chabad",
+          "n1": 19,
+          "n2": 378,
+          "mean1": 0.436444,
+          "mean2": 0.233762,
+          "z": 3.039989,
+          "p_raw": 0.002366,
+          "p_adj": 0.007743,
+          "sig": true
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Non-Denominational Conservative",
+          "n1": 14,
+          "n2": 12,
+          "mean1": 0.60598,
+          "mean2": 0.209655,
+          "z": 2.975969,
+          "p_raw": 0.002921,
+          "p_adj": 0.008088,
+          "sig": true
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Non-Denominational Progressive",
+          "n1": 14,
+          "n2": 122,
+          "mean1": 0.60598,
+          "mean2": 0.288419,
+          "z": 2.997732,
+          "p_raw": 0.00272,
+          "p_adj": 0.008088,
+          "sig": true
+        },
+        {
+          "group1": "Humanistic",
+          "group2": "Reform",
+          "n1": 14,
+          "n2": 370,
+          "mean1": 0.60598,
+          "mean2": 0.288334,
+          "z": 2.891031,
+          "p_raw": 0.00384,
+          "p_adj": 0.009874,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Conservative",
+          "n1": 54,
+          "n2": 247,
+          "mean1": 0.391522,
+          "mean2": 0.283359,
+          "z": 2.609112,
+          "p_raw": 0.009078,
+          "p_adj": 0.021787,
+          "sig": true
+        },
+        {
+          "group1": "Orthodox",
+          "group2": "Chabad",
+          "n1": 111,
+          "n2": 378,
+          "mean1": 0.181203,
+          "mean2": 0.233762,
+          "z": -2.578264,
+          "p_raw": 0.00993,
+          "p_adj": 0.022342,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Non-Denominational Progressive",
+          "n1": 54,
+          "n2": 122,
+          "mean1": 0.391522,
+          "mean2": 0.288419,
+          "z": 2.36352,
+          "p_raw": 0.018102,
+          "p_adj": 0.038334,
+          "sig": true
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Non-Denominational Conservative",
+          "n1": 19,
+          "n2": 12,
+          "mean1": 0.436444,
+          "mean2": 0.209655,
+          "z": 2.334521,
+          "p_raw": 0.019568,
+          "p_adj": 0.039137,
+          "sig": true
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Conservative",
+          "n1": 19,
+          "n2": 247,
+          "mean1": 0.436444,
+          "mean2": 0.283359,
+          "z": 2.274961,
+          "p_raw": 0.022908,
+          "p_adj": 0.043405,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Reform",
+          "n1": 54,
+          "n2": 370,
+          "mean1": 0.391522,
+          "mean2": 0.288334,
+          "z": 2.248544,
+          "p_raw": 0.024542,
+          "p_adj": 0.044175,
+          "sig": true
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Non-Denominational Conservative",
+          "n1": 54,
+          "n2": 12,
+          "mean1": 0.391522,
+          "mean2": 0.209655,
+          "z": 2.228328,
+          "p_raw": 0.025859,
+          "p_adj": 0.044329,
+          "sig": true
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Non-Denominational Progressive",
+          "n1": 19,
+          "n2": 122,
+          "mean1": 0.436444,
+          "mean2": 0.288419,
+          "z": 2.173165,
+          "p_raw": 0.029768,
+          "p_adj": 0.048711,
+          "sig": true
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Chabad",
+          "n1": 247,
+          "n2": 378,
+          "mean1": 0.283359,
+          "mean2": 0.233762,
+          "z": 2.115938,
+          "p_raw": 0.03435,
+          "p_adj": 0.053765,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Reform",
+          "n1": 19,
+          "n2": 370,
+          "mean1": 0.436444,
+          "mean2": 0.288334,
+          "z": 2.028719,
+          "p_raw": 0.042487,
+          "p_adj": 0.06373,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Chabad",
+          "n1": 122,
+          "n2": 378,
+          "mean1": 0.288419,
+          "mean2": 0.233762,
+          "z": 1.716745,
+          "p_raw": 0.086026,
+          "p_adj": 0.123877,
+          "sig": false
+        },
+        {
+          "group1": "Reconstructionist",
+          "group2": "Humanistic",
+          "n1": 54,
+          "n2": 14,
+          "mean1": 0.391522,
+          "mean2": 0.60598,
+          "z": -1.532404,
+          "p_raw": 0.125423,
+          "p_adj": 0.173662,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Non-Denominational Conservative",
+          "n1": 370,
+          "n2": 12,
+          "mean1": 0.288334,
+          "mean2": 0.209655,
+          "z": 1.307782,
+          "p_raw": 0.190947,
+          "p_adj": 0.254596,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Non-Denominational Conservative",
+          "n1": 122,
+          "n2": 12,
+          "mean1": 0.288419,
+          "mean2": 0.209655,
+          "z": 1.073716,
+          "p_raw": 0.28295,
+          "p_adj": 0.351248,
+          "sig": false
+        },
+        {
+          "group1": "Conservative",
+          "group2": "Non-Denominational Conservative",
+          "n1": 247,
+          "n2": 12,
+          "mean1": 0.283359,
+          "mean2": 0.209655,
+          "z": 1.079836,
+          "p_raw": 0.280215,
+          "p_adj": 0.351248,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Humanistic",
+          "n1": 19,
+          "n2": 14,
+          "mean1": 0.436444,
+          "mean2": 0.60598,
+          "z": -0.879907,
+          "p_raw": 0.37891,
+          "p_adj": 0.454692,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Conservative",
+          "n1": 370,
+          "n2": 247,
+          "mean1": 0.288334,
+          "mean2": 0.283359,
+          "z": 0.783694,
+          "p_raw": 0.43322,
+          "p_adj": 0.503094,
+          "sig": false
+        },
+        {
+          "group1": "Reform",
+          "group2": "Non-Denominational Progressive",
+          "n1": 370,
+          "n2": 122,
+          "mean1": 0.288334,
+          "mean2": 0.288419,
+          "z": 0.562794,
+          "p_raw": 0.573575,
+          "p_adj": 0.626988,
+          "sig": false
+        },
+        {
+          "group1": "Jewish Renewal",
+          "group2": "Reconstructionist",
+          "n1": 19,
+          "n2": 54,
+          "mean1": 0.436444,
+          "mean2": 0.391522,
+          "z": 0.561085,
+          "p_raw": 0.574739,
+          "p_adj": 0.626988,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Conservative",
+          "group2": "Chabad",
+          "n1": 12,
+          "n2": 378,
+          "mean1": 0.209655,
+          "mean2": 0.233762,
+          "z": -0.498202,
+          "p_raw": 0.618341,
+          "p_adj": 0.654714,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Conservative",
+          "group2": "Orthodox",
+          "n1": 12,
+          "n2": 111,
+          "mean1": 0.209655,
+          "mean2": 0.181203,
+          "z": 0.435225,
+          "p_raw": 0.663399,
+          "p_adj": 0.682354,
+          "sig": false
+        },
+        {
+          "group1": "Non-Denominational Progressive",
+          "group2": "Conservative",
+          "n1": 122,
+          "n2": 247,
+          "mean1": 0.288419,
+          "mean2": 0.283359,
+          "z": 0.050943,
+          "p_raw": 0.959371,
+          "p_adj": 0.959371,
+          "sig": false
+        }
+      ]
+    }
+  }
+}

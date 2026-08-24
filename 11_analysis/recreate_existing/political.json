@@ -1,0 +1,420 @@
+{
+  "source": "keyword_chunks",
+  "election_year": 2024,
+  "metric": "action chunks per environmentally active synagogue",
+  "four_state": {
+    "states": [
+      {
+        "state": "CA",
+        "lean": "Dem",
+        "n_total": 357,
+        "n_env_active": 167,
+        "mean_chunks_per_active": 17.01,
+        "sd": 28.94
+      },
+      {
+        "state": "NY",
+        "lean": "Dem",
+        "n_total": 569,
+        "n_env_active": 213,
+        "mean_chunks_per_active": 13.21,
+        "sd": 22.53
+      },
+      {
+        "state": "TX",
+        "lean": "Rep",
+        "n_total": 91,
+        "n_env_active": 33,
+        "mean_chunks_per_active": 14.45,
+        "sd": 29.04
+      },
+      {
+        "state": "FL",
+        "lean": "Rep",
+        "n_total": 219,
+        "n_env_active": 87,
+        "mean_chunks_per_active": 9.46,
+        "sd": 15.97
+      }
+    ],
+    "kruskal": {
+      "H": 8.435676900317063,
+      "df": 3,
+      "p": 0.03781556902234127,
+      "n_groups": 4,
+      "n_total": 500
+    },
+    "pairwise": [
+      {
+        "group1": "CA",
+        "group2": "FL",
+        "mean1": 17.005988023952096,
+        "mean2": 9.459770114942529,
+        "stat": 8784.5,
+        "p_raw": 0.005974009291891265,
+        "p_bonf": 0.035844055751347595,
+        "sig": true
+      },
+      {
+        "group1": "NY",
+        "group2": "FL",
+        "mean1": 13.206572769953052,
+        "mean2": 9.459770114942529,
+        "stat": 10341.0,
+        "p_raw": 0.11200449166229,
+        "p_bonf": 0.67202694997374,
+        "sig": false
+      },
+      {
+        "group1": "CA",
+        "group2": "NY",
+        "mean1": 17.005988023952096,
+        "mean2": 13.206572769953052,
+        "stat": 19457.0,
+        "p_raw": 0.11418400169038138,
+        "p_bonf": 0.6851040101422883,
+        "sig": false
+      },
+      {
+        "group1": "CA",
+        "group2": "TX",
+        "mean1": 17.005988023952096,
+        "mean2": 14.454545454545455,
+        "stat": 3217.0,
+        "p_raw": 0.1278225619004567,
+        "p_bonf": 0.7669353714027403,
+        "sig": false
+      },
+      {
+        "group1": "NY",
+        "group2": "TX",
+        "mean1": 13.206572769953052,
+        "mean2": 14.454545454545455,
+        "stat": 3752.5,
+        "p_raw": 0.5297709137737998,
+        "p_bonf": 1.0,
+        "sig": false
+      },
+      {
+        "group1": "TX",
+        "group2": "FL",
+        "mean1": 14.454545454545455,
+        "mean2": 9.459770114942529,
+        "stat": 1501.5,
+        "p_raw": 0.6969084260817112,
+        "p_bonf": 1.0,
+        "sig": false
+      }
+    ]
+  },
+  "ca_vs_fl_categories": [
+    {
+      "category": "Community",
+      "CA_mean": 5.012,
+      "CA_sd": 13.973,
+      "FL_mean": 1.885,
+      "FL_sd": 3.607,
+      "p_raw": 0.004829932851838575,
+      "p_bonf": 0.04346939566654717
+    },
+    {
+      "category": "Spirituality & Worship",
+      "CA_mean": 8.377,
+      "CA_sd": 18.729,
+      "FL_mean": 6.598,
+      "FL_sd": 14.899,
+      "p_raw": 0.1996363732756078,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Kitchen",
+      "CA_mean": 1.108,
+      "CA_sd": 5.036,
+      "FL_mean": 0.23,
+      "FL_sd": 0.845,
+      "p_raw": 0.05563613058253231,
+      "p_bonf": 0.5007251752427908
+    },
+    {
+      "category": "Waste",
+      "CA_mean": 0.317,
+      "CA_sd": 1.247,
+      "FL_mean": 0.379,
+      "FL_sd": 1.296,
+      "p_raw": 0.5578653099765707,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Energy",
+      "CA_mean": 1.15,
+      "CA_sd": 11.14,
+      "FL_mean": 0.057,
+      "FL_sd": 0.353,
+      "p_raw": 0.032488951498049944,
+      "p_bonf": 0.29240056348244947
+    },
+    {
+      "category": "Operations & Maintenance",
+      "CA_mean": 0.078,
+      "CA_sd": 0.411,
+      "FL_mean": 0.195,
+      "FL_sd": 0.819,
+      "p_raw": 0.4582063367264708,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Environmental & Climate Justice",
+      "CA_mean": 0.826,
+      "CA_sd": 5.193,
+      "FL_mean": 0.08,
+      "FL_sd": 0.348,
+      "p_raw": 0.20047241778643532,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Water",
+      "CA_mean": 0.072,
+      "CA_sd": 0.645,
+      "FL_mean": 0.023,
+      "FL_sd": 0.214,
+      "p_raw": 0.503240030141038,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Other",
+      "CA_mean": 0.066,
+      "CA_sd": 0.293,
+      "FL_mean": 0.011,
+      "FL_sd": 0.107,
+      "p_raw": 0.09933757325584457,
+      "p_bonf": 0.8940381593026011
+    }
+  ],
+  "four_state_all_synagogues": {
+    "states": [
+      {
+        "state": "CA",
+        "lean": "Dem",
+        "n_total": 357,
+        "mean_chunks_per_synagogue": 7.96,
+        "sd": 21.51
+      },
+      {
+        "state": "NY",
+        "lean": "Dem",
+        "n_total": 569,
+        "mean_chunks_per_synagogue": 4.94,
+        "sd": 15.18
+      },
+      {
+        "state": "TX",
+        "lean": "Rep",
+        "n_total": 91,
+        "mean_chunks_per_synagogue": 5.24,
+        "sd": 18.67
+      },
+      {
+        "state": "FL",
+        "lean": "Rep",
+        "n_total": 219,
+        "mean_chunks_per_synagogue": 3.76,
+        "sd": 11.05
+      }
+    ],
+    "kruskal": {
+      "H": 12.340094704182752,
+      "df": 3,
+      "p": 0.006304468408869258,
+      "n_groups": 4,
+      "n_total": 1236
+    },
+    "pairwise": [
+      {
+        "group1": "CA",
+        "group2": "NY",
+        "mean1": 7.955182072829132,
+        "mean2": 4.943760984182777,
+        "stat": 112729.0,
+        "p_raw": 0.001569654029748415,
+        "p_bonf": 0.009417924178490491,
+        "sig": true
+      },
+      {
+        "group1": "CA",
+        "group2": "FL",
+        "mean1": 7.955182072829132,
+        "mean2": 3.7579908675799087,
+        "stat": 43368.5,
+        "p_raw": 0.015131128337429718,
+        "p_bonf": 0.09078677002457831,
+        "sig": false
+      },
+      {
+        "group1": "CA",
+        "group2": "TX",
+        "mean1": 7.955182072829132,
+        "mean2": 5.241758241758242,
+        "stat": 18413.0,
+        "p_raw": 0.03079214836075013,
+        "p_bonf": 0.18475289016450078,
+        "sig": false
+      },
+      {
+        "group1": "NY",
+        "group2": "TX",
+        "mean1": 4.943760984182777,
+        "mean2": 5.241758241758242,
+        "stat": 26430.5,
+        "p_raw": 0.712179241167867,
+        "p_bonf": 1.0,
+        "sig": false
+      },
+      {
+        "group1": "NY",
+        "group2": "FL",
+        "mean1": 4.943760984182777,
+        "mean2": 3.7579908675799087,
+        "stat": 61953.0,
+        "p_raw": 0.8879401639694324,
+        "p_bonf": 1.0,
+        "sig": false
+      },
+      {
+        "group1": "TX",
+        "group2": "FL",
+        "mean1": 5.241758241758242,
+        "mean2": 3.7579908675799087,
+        "stat": 9685.5,
+        "p_raw": 0.6584377723794326,
+        "p_bonf": 1.0,
+        "sig": false
+      }
+    ]
+  },
+  "ca_vs_fl_categories_all_synagogues": [
+    {
+      "category": "Community",
+      "CA_mean": 2.345,
+      "CA_sd": 9.865,
+      "FL_mean": 0.749,
+      "FL_sd": 2.447,
+      "p_raw": 0.0017253768638818986,
+      "p_bonf": 0.015528391774937087
+    },
+    {
+      "category": "Spirituality & Worship",
+      "CA_mean": 3.919,
+      "CA_sd": 13.457,
+      "FL_mean": 2.621,
+      "FL_sd": 9.902,
+      "p_raw": 0.08931127984297021,
+      "p_bonf": 0.803801518586732
+    },
+    {
+      "category": "Kitchen",
+      "CA_mean": 0.518,
+      "CA_sd": 3.483,
+      "FL_mean": 0.091,
+      "FL_sd": 0.543,
+      "p_raw": 0.025463286177051795,
+      "p_bonf": 0.22916957559346615
+    },
+    {
+      "category": "Waste",
+      "CA_mean": 0.148,
+      "CA_sd": 0.866,
+      "FL_mean": 0.151,
+      "FL_sd": 0.835,
+      "p_raw": 0.8899147853815289,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Energy",
+      "CA_mean": 0.538,
+      "CA_sd": 7.628,
+      "FL_mean": 0.023,
+      "FL_sd": 0.223,
+      "p_raw": 0.01616107498470298,
+      "p_bonf": 0.14544967486232682
+    },
+    {
+      "category": "Operations & Maintenance",
+      "CA_mean": 0.036,
+      "CA_sd": 0.283,
+      "FL_mean": 0.078,
+      "FL_sd": 0.523,
+      "p_raw": 0.6918383438191614,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Environmental & Climate Justice",
+      "CA_mean": 0.387,
+      "CA_sd": 3.57,
+      "FL_mean": 0.032,
+      "FL_sd": 0.222,
+      "p_raw": 0.12260908157772653,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Water",
+      "CA_mean": 0.034,
+      "CA_sd": 0.442,
+      "FL_mean": 0.009,
+      "FL_sd": 0.135,
+      "p_raw": 0.4066658523814912,
+      "p_bonf": 1.0
+    },
+    {
+      "category": "Other",
+      "CA_mean": 0.031,
+      "CA_sd": 0.203,
+      "FL_mean": 0.005,
+      "FL_sd": 0.068,
+      "p_raw": 0.06563546050706022,
+      "p_bonf": 0.590719144563542
+    }
+  ],
+  "district_lean": {
+    "groups": [
+      {
+        "district_lean": "Dem",
+        "n_total": 1864,
+        "n_env_active": 852,
+        "mean_chunks_per_active": 14.56,
+        "sd": 23.34
+      },
+      {
+        "district_lean": "Rep",
+        "n_total": 679,
+        "n_env_active": 282,
+        "mean_chunks_per_active": 10.95,
+        "sd": 19.95
+      }
+    ],
+    "mann_whitney": {
+      "U": 139169.0,
+      "p": 5.902169237720888e-05
+    }
+  },
+  "district_lean_all_synagogues": {
+    "metric": "action chunks per synagogue (incl. zero-action)",
+    "groups": [
+      {
+        "district_lean": "Dem",
+        "n_total": 1864,
+        "mean_chunks_per_synagogue": 6.65,
+        "sd": 17.36
+      },
+      {
+        "district_lean": "Rep",
+        "n_total": 679,
+        "mean_chunks_per_synagogue": 4.55,
+        "sd": 13.93
+      }
+    ],
+    "mann_whitney": {
+      "U": 678295.0,
+      "p": 0.0022980000068782065
+    }
+  }
+}

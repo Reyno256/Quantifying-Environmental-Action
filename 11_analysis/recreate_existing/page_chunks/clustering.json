@@ -1,0 +1,107 @@
+{
+  "source": "page_chunks",
+  "n_env_active": 1353,
+  "features": [
+    "Community",
+    "Spirituality & Worship",
+    "Kitchen",
+    "Waste",
+    "Energy",
+    "Operations & Maintenance",
+    "Environmental & Climate Justice",
+    "Water",
+    "Other",
+    "total_actions",
+    "denom_ordinal",
+    "district_lean"
+  ],
+  "k_sweep": [
+    {
+      "k": 2,
+      "silhouette": 0.6297,
+      "davies_bouldin": 1.8154,
+      "inertia": 13710.5
+    },
+    {
+      "k": 3,
+      "silhouette": 0.3366,
+      "davies_bouldin": 1.6469,
+      "inertia": 12530.2
+    },
+    {
+      "k": 4,
+      "silhouette": 0.3281,
+      "davies_bouldin": 1.6881,
+      "inertia": 11461.0
+    },
+    {
+      "k": 5,
+      "silhouette": 0.2544,
+      "davies_bouldin": 1.289,
+      "inertia": 10549.5
+    },
+    {
+      "k": 6,
+      "silhouette": 0.3489,
+      "davies_bouldin": 1.2128,
+      "inertia": 9439.7
+    },
+    {
+      "k": 7,
+      "silhouette": 0.3327,
+      "davies_bouldin": 1.0619,
+      "inertia": 8617.1
+    },
+    {
+      "k": 8,
+      "silhouette": 0.3395,
+      "davies_bouldin": 1.01,
+      "inertia": 7814.9
+    }
+  ],
+  "best_k": 2,
+  "best_silhouette": 0.6297,
+  "silhouette_threshold": 0.25,
+  "cluster_structure": "meaningful",
+  "interpretation": "Best silhouette 0.630 at k=2 (above the 0.25 threshold) \u2192 meaningful cluster structure. Synagogues separate into distinct engagement clusters.",
+  "cluster_profiles": [
+    {
+      "cluster": 0,
+      "n": 133,
+      "mean_total_actions": 49.82,
+      "category_means": {
+        "Community": 14.69,
+        "Spirituality & Worship": 22.34,
+        "Kitchen": 4.12,
+        "Waste": 2.17,
+        "Energy": 2.05,
+        "Operations & Maintenance": 2.49,
+        "Environmental & Climate Justice": 1.59,
+        "Water": 0.18,
+        "Other": 0.18
+      },
+      "dominant_denomination": "Reform",
+      "pct_dem_district": 67.7,
+      "pct_rep_district": 23.3
+    },
+    {
+      "cluster": 1,
+      "n": 1220,
+      "mean_total_actions": 5.68,
+      "category_means": {
+        "Community": 1.69,
+        "Spirituality & Worship": 2.87,
+        "Kitchen": 0.35,
+        "Waste": 0.28,
+        "Energy": 0.1,
+        "Operations & Maintenance": 0.28,
+        "Environmental & Climate Justice": 0.1,
+        "Water": 0.0,
+        "Other": 0.01
+      },
+      "dominant_denomination": "Chabad",
+      "pct_dem_district": 70.7,
+      "pct_rep_district": 24.3
+    }
+  ]
+}

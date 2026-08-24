@@ -1,0 +1,104 @@
+{
+  "source": "keyword_chunks",
+  "n_environmentally_active": 1200,
+  "metric": "action chunks per environmentally active synagogue",
+  "categories": [
+    {
+      "category": "Spirituality & Worship",
+      "mean_chunks_per_active": 6.591,
+      "sd": 14.287,
+      "n_synagogues_with_action": 943,
+      "pct_active_with_action": 78.6,
+      "pct_sd": 1.2,
+      "total_chunks": 7909
+    },
+    {
+      "category": "Community",
+      "mean_chunks_per_active": 4.379,
+      "sd": 10.645,
+      "n_synagogues_with_action": 791,
+      "pct_active_with_action": 65.9,
+      "pct_sd": 1.4,
+      "total_chunks": 5255
+    },
+    {
+      "category": "Kitchen",
+      "mean_chunks_per_active": 0.938,
+      "sd": 4.282,
+      "n_synagogues_with_action": 275,
+      "pct_active_with_action": 22.9,
+      "pct_sd": 1.2,
+      "total_chunks": 1125
+    },
+    {
+      "category": "Energy",
+      "mean_chunks_per_active": 0.601,
+      "sd": 5.411,
+      "n_synagogues_with_action": 125,
+      "pct_active_with_action": 10.4,
+      "pct_sd": 0.9,
+      "total_chunks": 721
+    },
+    {
+      "category": "Operations & Maintenance",
+      "mean_chunks_per_active": 0.449,
+      "sd": 2.574,
+      "n_synagogues_with_action": 149,
+      "pct_active_with_action": 12.4,
+      "pct_sd": 1.0,
+      "total_chunks": 539
+    },
+    {
+      "category": "Waste",
+      "mean_chunks_per_active": 0.43,
+      "sd": 1.739,
+      "n_synagogues_with_action": 162,
+      "pct_active_with_action": 13.5,
+      "pct_sd": 1.0,
+      "total_chunks": 516
+    },
+    {
+      "category": "Environmental & Climate Justice",
+      "mean_chunks_per_active": 0.362,
+      "sd": 2.402,
+      "n_synagogues_with_action": 113,
+      "pct_active_with_action": 9.4,
+      "pct_sd": 0.8,
+      "total_chunks": 435
+    },
+    {
+      "category": "Other",
+      "mean_chunks_per_active": 0.049,
+      "sd": 0.316,
+      "n_synagogues_with_action": 39,
+      "pct_active_with_action": 3.2,
+      "pct_sd": 0.5,
+      "total_chunks": 59
+    },
+    {
+      "category": "Water",
+      "mean_chunks_per_active": 0.047,
+      "sd": 0.387,
+      "n_synagogues_with_action": 26,
+      "pct_active_with_action": 2.2,
+      "pct_sd": 0.4,
+      "total_chunks": 56
+    }
+  ],
+  "friedman": {
+    "chi2": 4526.805984530152,
+    "df": 8,
+    "p": 0.0,
+    "n_subjects": 1200
+  },
+  "n_pairwise_significant": 29,
+  "n_pairwise_total": 36,
+  "friedman_all_synagogues": {
+    "chi2": 4526.8059845301495,
+    "df": 8,
+    "p": 0.0,
+    "n_subjects": 2664
+  },
+  "n_pairwise_significant_all_synagogues": 29,
+  "n_pairwise_total_all_synagogues": 36
+}

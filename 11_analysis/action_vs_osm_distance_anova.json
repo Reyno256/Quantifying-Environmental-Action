@@ -1,0 +1,189 @@
+{
+  "test": "Kruskal-Wallis H-test of action count across fixed distance tiers",
+  "tiers": {
+    "close": "<25 km",
+    "medium": "25-50 km",
+    "far": ">50 km"
+  },
+  "null_hypothesis": "all tier action-count distributions are equal",
+  "n_synagogues": 2561,
+  "multiple_comparison": "Bonferroni over 7 tests",
+  "note": "Non-parametric (action counts are zero-inflated and right-skewed). Empty tiers dropped.",
+  "results": [
+    {
+      "site_type": "green_space",
+      "tiers": [
+        {
+          "tier": "close (<25km)",
+          "n": 2558,
+          "mean_actions": 6.09
+        },
+        {
+          "tier": "medium (25-50km)",
+          "n": 0,
+          "mean_actions": null
+        },
+        {
+          "tier": "far (>50km)",
+          "n": 3,
+          "mean_actions": 0.67
+        }
+      ],
+      "n_nonempty_tiers": 2,
+      "kruskal_H": 0.3555,
+      "kruskal_p": 0.5510290156597977,
+      "kruskal_p_bonferroni": 1.0,
+      "kruskal_significant_0.05": false
+    },
+    {
+      "site_type": "env_hazard",
+      "tiers": [
+        {
+          "tier": "close (<25km)",
+          "n": 2551,
+          "mean_actions": 6.08
+        },
+        {
+          "tier": "medium (25-50km)",
+          "n": 5,
+          "mean_actions": 11.8
+        },
+        {
+          "tier": "far (>50km)",
+          "n": 5,
+          "mean_actions": 1.6
+        }
+      ],
+      "n_nonempty_tiers": 3,
+      "kruskal_H": 0.1723,
+      "kruskal_p": 0.9174403706702935,
+      "kruskal_p_bonferroni": 1.0,
+      "kruskal_significant_0.05": false
+    },
+    {
+      "site_type": "landfill",
+      "tiers": [
+        {
+          "tier": "close (<25km)",
+          "n": 2381,
+          "mean_actions": 6.1
+        },
+        {
+          "tier": "medium (25-50km)",
+          "n": 148,
+          "mean_actions": 6.26
+        },
+        {
+          "tier": "far (>50km)",
+          "n": 32,
+          "mean_actions": 4.0
+        }
+      ],
+      "n_nonempty_tiers": 3,
+      "kruskal_H": 0.4727,
+      "kruskal_p": 0.7895067545008121,
+      "kruskal_p_bonferroni": 1.0,
+      "kruskal_significant_0.05": false
+    },
+    {
+      "site_type": "industrial",
+      "tiers": [
+        {
+          "tier": "close (<25km)",
+          "n": 2555,
+          "mean_actions": 6.04
+        },
+        {
+          "tier": "medium (25-50km)",
+          "n": 3,
+          "mean_actions": 47.0
+        },
+        {
+          "tier": "far (>50km)",
+          "n": 3,
+          "mean_actions": 0.67
+        }
+      ],
+      "n_nonempty_tiers": 3,
+      "kruskal_H": 1.3296,
+      "kruskal_p": 0.5143695686408005,
+      "kruskal_p_bonferroni": 1.0,
+      "kruskal_significant_0.05": false
+    },
+    {
+      "site_type": "abattoir",
+      "tiers": [
+        {
+          "tier": "close (<25km)",
+          "n": 684,
+          "mean_actions": 5.6
+        },
+        {
+          "tier": "medium (25-50km)",
+          "n": 433,
+          "mean_actions": 6.12
+        },
+        {
+          "tier": "far (>50km)",
+          "n": 1444,
+          "mean_actions": 6.29
+        }
+      ],
+      "n_nonempty_tiers": 3,
+      "kruskal_H": 15.1,
+      "kruskal_p": 0.0005261098566828861,
+      "kruskal_p_bonferroni": 0.0036827689967802025,
+      "kruskal_significant_0.05": true
+    },
+    {
+      "site_type": "military",
+      "tiers": [
+        {
+          "tier": "close (<25km)",
+          "n": 2407,
+          "mean_actions": 6.1
+        },
+        {
+          "tier": "medium (25-50km)",
+          "n": 113,
+          "mean_actions": 5.8
+        },
+        {
+          "tier": "far (>50km)",
+          "n": 41,
+          "mean_actions": 5.61
+        }
+      ],
+      "n_nonempty_tiers": 3,
+      "kruskal_H": 0.1784,
+      "kruskal_p": 0.9146550821671128,
+      "kruskal_p_bonferroni": 1.0,
+      "kruskal_significant_0.05": false
+    },
+    {
+      "site_type": "airport",
+      "tiers": [
+        {
+          "tier": "close (<25km)",
+          "n": 2556,
+          "mean_actions": 6.09
+        },
+        {
+          "tier": "medium (25-50km)",
+          "n": 2,
+          "mean_actions": 4.5
+        },
+        {
+          "tier": "far (>50km)",
+          "n": 3,
+          "mean_actions": 0.67
+        }
+      ],
+      "n_nonempty_tiers": 3,
+      "kruskal_H": 1.9626,
+      "kruskal_p": 0.3748211731856292,
+      "kruskal_p_bonferroni": 1.0,
+      "kruskal_significant_0.05": false
+    }
+  ]
+}

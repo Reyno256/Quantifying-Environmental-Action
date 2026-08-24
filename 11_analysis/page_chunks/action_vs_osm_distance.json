@@ -1,0 +1,73 @@
+{
+  "population": "synagogues with >=1 crawled site and coords",
+  "action_metric": "count of non-N/A llm_chunk_classifications",
+  "distance_metric": "metres to nearest point of nearest feature (point+polygon)",
+  "test": "Spearman rank correlation; H0: rho = 0 (no monotonic relation)",
+  "multiple_comparison": "Bonferroni over 7 tests",
+  "n_synagogues": 2555,
+  "results": [
+    {
+      "site_type": "green_space",
+      "spearman_rho": -0.0537,
+      "p_value": 0.006584283400291785,
+      "p_value_bonferroni": 0.046089983802042496,
+      "significant_bonferroni_0.05": true,
+      "median_dist_km": 0.16,
+      "n": 2555
+    },
+    {
+      "site_type": "env_hazard",
+      "spearman_rho": 0.0588,
+      "p_value": 0.0029333376960307884,
+      "p_value_bonferroni": 0.020533363872215517,
+      "significant_bonferroni_0.05": true,
+      "median_dist_km": 2.27,
+      "n": 2555
+    },
+    {
+      "site_type": "landfill",
+      "spearman_rho": -0.0093,
+      "p_value": 0.6371911943164499,
+      "p_value_bonferroni": 1.0,
+      "significant_bonferroni_0.05": false,
+      "median_dist_km": 10.29,
+      "n": 2555
+    },
+    {
+      "site_type": "industrial",
+      "spearman_rho": 0.0182,
+      "p_value": 0.3572000806051746,
+      "p_value_bonferroni": 1.0,
+      "significant_bonferroni_0.05": false,
+      "median_dist_km": 1.43,
+      "n": 2555
+    },
+    {
+      "site_type": "abattoir",
+      "spearman_rho": 0.0593,
+      "p_value": 0.0027149421137579147,
+      "p_value_bonferroni": 0.019004594796305403,
+      "significant_bonferroni_0.05": true,
+      "median_dist_km": 65.39,
+      "n": 2555
+    },
+    {
+      "site_type": "military",
+      "spearman_rho": -0.024,
+      "p_value": 0.22465947081881768,
+      "p_value_bonferroni": 1.0,
+      "significant_bonferroni_0.05": false,
+      "median_dist_km": 6.92,
+      "n": 2555
+    },
+    {
+      "site_type": "airport",
+      "spearman_rho": 0.0379,
+      "p_value": 0.05544371367989768,
+      "p_value_bonferroni": 0.38810599575928373,
+      "significant_bonferroni_0.05": false,
+      "median_dist_km": 6.69,
+      "n": 2555
+    }
+  ]
+}

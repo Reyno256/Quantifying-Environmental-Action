@@ -1,0 +1,33 @@
+.env
+.venv/
+America_rvest.Rmd
+#images
+09_figures/*.png
+
+# Downloaded external datasets
+02_cross_referencing/ruca2020.csv
+04_web_scraping/html_pages/
+04_web_scraping/html_pages.zip
+05_web_scraping/html_pages/
+05_web_scraping/html_pages.zip
+05_environmental_classification/environmental_html_pages/
+06_environmental_classification/environmental_html_pages/
+07_database/1976-2024-house.tab
+America_rvest_csv.csv
+America_Orig.csv
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Generated CSVs — large outputs, not tracked in git
+05_environmental_classification/classifying_environmental_action.csv
+05_environmental_classification/comparison_*.csv
+11_human_validation/union_classifications.csv
+11_human_validation/review_results_*.csv
+11_human_validation/human_labels.csv
+*.csv

@@ -1,0 +1,2 @@
+# Task: Output the name of exactly one classification label from the list below. No explanation is needed. If the page does not fit into one of those categories, return "Unkown".
+ Classify denominations into one of 10 categories Reconstructionist, Reform, Jewish Renewal, Conservative, Non-Denominational Progressive, Humanistic, Non-Denominational Conservative, Modern Orthodox, Orthodox, Chabad or Unknown. 

@@ -1,0 +1,21 @@
+{
+  "year": 2024,
+  "k_neighbours": 8,
+  "n": 2322,
+  "perms": 9999,
+  "variables": {
+    "x": "district Democratic two-party vote share (lean)",
+    "y": "environmental action count"
+  },
+  "lees_L": 0.0459,
+  "perm_mean": -0.0003,
+  "perm_std": 0.0191,
+  "z_score": 2.415,
+  "p_value_one_sided": 0.0091,
+  "p_value_two_sided": 0.0148,
+  "null_hypothesis": "no bivariate spatial association (Lee's L = 0)",
+  "aspatial_pearson_r": 0.047,
+  "aspatial_pearson_p": 0.023432573153494507,
+  "morans_I_lean": 0.7399,
+  "morans_I_actions": 0.0197
+}

@@ -1,0 +1,23 @@
+{
+  "year": 2024,
+  "population": "synagogues with >=1 successfully crawled site, in D/R districts",
+  "n_total": 2542,
+  "contingency": {
+    "dem_action": 953,
+    "dem_no_action": 908,
+    "rep_action": 328,
+    "rep_no_action": 353
+  },
+  "pct_with_action": {
+    "democratic_district": 51.2,
+    "republican_district": 48.2
+  },
+  "phi_coefficient": 0.027,
+  "chi_square": 1.849,
+  "chi_square_p_value": 0.1739404102639782,
+  "odds_ratio_dem_vs_rep": 1.129,
+  "odds_ratio_95ci": [
+    0.948,
+    1.346
+  ]
+}

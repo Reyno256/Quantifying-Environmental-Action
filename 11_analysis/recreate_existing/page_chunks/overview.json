@@ -1,0 +1,20 @@
+{
+  "source": "page_chunks",
+  "denominator_definition": "synagogues with >=1 successfully crawled web page (has_error=FALSE)",
+  "n_active_denominator": 2657,
+  "n_environmentally_active": 1353,
+  "pct_environmentally_active": 50.9,
+  "pct_env_active_ci95": 1.9,
+  "action_metric": "action chunks (non-N/A classifications)",
+  "mean_action_chunks_all": 5.1,
+  "mean_action_chunks_per_active": 10.02,
+  "ci95_action_chunks_per_active": 0.85,
+  "fidelity_check": {
+    "metric": "distinct action types (thesis definition)",
+    "mean_distinct_types_all": 1.75,
+    "mean_distinct_types_per_active": 3.43,
+    "thesis_all": 1.8,
+    "thesis_per_active": 4.2
+  },
+  "total_action_chunks": 13561
+}

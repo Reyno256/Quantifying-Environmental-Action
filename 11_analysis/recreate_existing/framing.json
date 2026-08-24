@@ -1,0 +1,488 @@
+{
+  "n_environmentally_active": 1200,
+  "metric": "framed action chunks per environmentally active synagogue",
+  "note": "framings are non-exclusive; percentages sum to > 100%",
+  "framings": [
+    {
+      "framing": "Implicit",
+      "n_synagogues_with_framing": 830,
+      "pct_active_with_framing": 69.2,
+      "pct_sd": 1.3,
+      "mean_chunks_per_active": 5.423,
+      "sd": 13.905,
+      "total_chunks": 6507
+    },
+    {
+      "framing": "Explicit",
+      "n_synagogues_with_framing": 742,
+      "pct_active_with_framing": 61.8,
+      "pct_sd": 1.4,
+      "mean_chunks_per_active": 4.479,
+      "sd": 10.954,
+      "total_chunks": 5375
+    },
+    {
+      "framing": "Embedded",
+      "n_synagogues_with_framing": 808,
+      "pct_active_with_framing": 67.3,
+      "pct_sd": 1.4,
+      "mean_chunks_per_active": 3.944,
+      "sd": 8.349,
+      "total_chunks": 4733
+    }
+  ],
+  "friedman": {
+    "chi2": 17.576229907454465,
+    "df": 2,
+    "p": 0.0001525352328182883,
+    "n_subjects": 1200
+  },
+  "pairwise": [
+    {
+      "group1": "Implicit",
+      "group2": "Explicit",
+      "mean1": 5.4225,
+      "mean2": 4.479166666666667,
+      "stat": 192066.5,
+      "p_raw": 0.03642738753280985,
+      "p_bonf": 0.10928216259842954,
+      "sig": false
+    },
+    {
+      "group1": "Explicit",
+      "group2": "Embedded",
+      "mean1": 4.479166666666667,
+      "mean2": 3.944166666666667,
+      "stat": 220603.5,
+      "p_raw": 0.037522093392290005,
+      "p_bonf": 0.11256628017687001,
+      "sig": false
+    },
+    {
+      "group1": "Implicit",
+      "group2": "Embedded",
+      "mean1": 5.4225,
+      "mean2": 3.944166666666667,
+      "stat": 261649.5,
+      "p_raw": 0.8087992411159957,
+      "p_bonf": 1.0,
+      "sig": false
+    }
+  ],
+  "friedman_all_synagogues": {
+    "chi2": 17.57622990745166,
+    "df": 2,
+    "p": 0.0001525352328185025,
+    "n_subjects": 2664
+  },
+  "pairwise_all_synagogues": [
+    {
+      "group1": "Implicit",
+      "group2": "Explicit",
+      "mean1": 2.4425675675675675,
+      "mean2": 2.0176426426426426,
+      "stat": 192066.5,
+      "p_raw": 0.03642738753280985,
+      "p_bonf": 0.10928216259842954,
+      "sig": false
+    },
+    {
+      "group1": "Explicit",
+      "group2": "Embedded",
+      "mean1": 2.0176426426426426,
+      "mean2": 1.7766516516516517,
+      "stat": 220603.5,
+      "p_raw": 0.037522093392290005,
+      "p_bonf": 0.11256628017687001,
+      "sig": false
+    },
+    {
+      "group1": "Implicit",
+      "group2": "Embedded",
+      "mean1": 2.4425675675675675,
+      "mean2": 1.7766516516516517,
+      "stat": 261649.5,
+      "p_raw": 0.8087992411159957,
+      "p_bonf": 1.0,
+      "sig": false
+    }
+  ],
+  "party_effect_by_framing_all_synagogues": [
+    {
+      "framing": "Implicit",
+      "n_dem": 1864,
+      "n_rep": 679,
+      "mean_dem": 2.697,
+      "mean_rep": 1.798,
+      "U": 675399.5,
+      "p_raw": 0.0014364493710624193,
+      "p_bonf": 0.0043093481131872575,
+      "sig": true
+    },
+    {
+      "framing": "Explicit",
+      "n_dem": 1864,
+      "n_rep": 679,
+      "mean_dem": 2.252,
+      "mean_rep": 1.0,
+      "U": 697652.0,
+      "p_raw": 4.825837094583547e-07,
+      "p_bonf": 1.447751128375064e-06,
+      "sig": true
+    },
+    {
+      "framing": "Embedded",
+      "n_dem": 1864,
+      "n_rep": 679,
+      "mean_dem": 1.704,
+      "mean_rep": 1.748,
+      "U": 651385.0,
+      "p_raw": 0.16305568739090914,
+      "p_bonf": 0.48916706217272743,
+      "sig": false
+    }
+  ],
+  "category_composition_per_active": {
+    "Implicit": {
+      "Community": 1.833,
+      "Spirituality & Worship": 2.201,
+      "Kitchen": 0.601,
+      "Waste": 0.315,
+      "Energy": 0.229,
+      "Operations & Maintenance": 0.199,
+      "Environmental & Climate Justice": 0.019,
+      "Water": 0.018,
+      "Other": 0.007
+    },
+    "Explicit": {
+      "Community": 1.832,
+      "Spirituality & Worship": 1.347,
+      "Kitchen": 0.207,
+      "Waste": 0.089,
+      "Energy": 0.369,
+      "Operations & Maintenance": 0.237,
+      "Environmental & Climate Justice": 0.328,
+      "Water": 0.028,
+      "Other": 0.043
+    },
+    "Embedded": {
+      "Community": 0.714,
+      "Spirituality & Worship": 3.042,
+      "Kitchen": 0.129,
+      "Waste": 0.026,
+      "Energy": 0.003,
+      "Operations & Maintenance": 0.013,
+      "Environmental & Climate Justice": 0.016,
+      "Water": 0.001,
+      "Other": 0.0
+    }
+  },
+  "category_composition_by_party": {
+    "Dem": {
+      "n_env_active": 852,
+      "composition": {
+        "Implicit": {
+          "Community": 2.075,
+          "Spirituality & Worship": 2.25,
+          "Kitchen": 0.65,
+          "Waste": 0.371,
+          "Energy": 0.298,
+          "Operations & Maintenance": 0.201,
+          "Environmental & Climate Justice": 0.023,
+          "Water": 0.023,
+          "Other": 0.008
+        },
+        "Explicit": {
+          "Community": 2.013,
+          "Spirituality & Worship": 1.373,
+          "Kitchen": 0.218,
+          "Waste": 0.103,
+          "Energy": 0.492,
+          "Operations & Maintenance": 0.272,
+          "Environmental & Climate Justice": 0.384,
+          "Water": 0.029,
+          "Other": 0.042
+        },
+        "Embedded": {
+          "Community": 0.655,
+          "Spirituality & Worship": 2.85,
+          "Kitchen": 0.157,
+          "Waste": 0.033,
+          "Energy": 0.004,
+          "Operations & Maintenance": 0.015,
+          "Environmental & Climate Justice": 0.014,
+          "Water": 0.001,
+          "Other": 0.0
+        }
+      }
+    },
+    "Rep": {
+      "n_env_active": 282,
+      "composition": {
+        "Implicit": {
+          "Community": 1.277,
+          "Spirituality & Worship": 2.287,
+          "Kitchen": 0.379,
+          "Waste": 0.188,
+          "Energy": 0.071,
+          "Operations & Maintenance": 0.113,
+          "Environmental & Climate Justice": 0.004,
+          "Water": 0.007,
+          "Other": 0.004
+        },
+        "Explicit": {
+          "Community": 0.901,
+          "Spirituality & Worship": 0.972,
+          "Kitchen": 0.135,
+          "Waste": 0.046,
+          "Energy": 0.071,
+          "Operations & Maintenance": 0.121,
+          "Environmental & Climate Justice": 0.089,
+          "Water": 0.028,
+          "Other": 0.046
+        },
+        "Embedded": {
+          "Community": 0.89,
+          "Spirituality & Worship": 3.23,
+          "Kitchen": 0.067,
+          "Waste": 0.011,
+          "Energy": 0.0,
+          "Operations & Maintenance": 0.004,
+          "Environmental & Climate Justice": 0.007,
+          "Water": 0.0,
+          "Other": 0.0
+        }
+      }
+    }
+  },
+  "denomination_category_composition_by_party": {
+    "Dem": {
+      "n_env_active_by_denomination": {
+        "Jewish Renewal": 11,
+        "Reconstructionist": 40,
+        "Humanistic": 8,
+        "Reform": 238,
+        "Non-Denominational Progressive": 68,
+        "Conservative": 167,
+        "Non-Denominational Conservative": 8,
+        "Orthodox": 80,
+        "Chabad": 219
+      },
+      "composition": {
+        "Jewish Renewal": {
+          "Community": 9.455,
+          "Spirituality & Worship": 13.545,
+          "Kitchen": 6.0,
+          "Waste": 0.364,
+          "Energy": 0.091,
+          "Operations & Maintenance": 0.364,
+          "Environmental & Climate Justice": 6.273,
+          "Water": 0.0,
+          "Other": 0.182
+        },
+        "Reconstructionist": {
+          "Community": 6.225,
+          "Spirituality & Worship": 7.575,
+          "Kitchen": 4.975,
+          "Waste": 0.55,
+          "Energy": 2.025,
+          "Operations & Maintenance": 1.5,
+          "Environmental & Climate Justice": 1.1,
+          "Water": 0.1,
+          "Other": 0.125
+        },
+        "Humanistic": {
+          "Community": 4.875,
+          "Spirituality & Worship": 4.25,
+          "Kitchen": 0.125,
+          "Waste": 0.125,
+          "Energy": 0.125,
+          "Operations & Maintenance": 0.0,
+          "Environmental & Climate Justice": 1.0,
+          "Water": 0.0,
+          "Other": 0.0
+        },
+        "Reform": {
+          "Community": 6.349,
+          "Spirituality & Worship": 8.134,
+          "Kitchen": 1.088,
+          "Waste": 0.765,
+          "Energy": 1.223,
+          "Operations & Maintenance": 0.55,
+          "Environmental & Climate Justice": 0.496,
+          "Water": 0.109,
+          "Other": 0.055
+        },
+        "Non-Denominational Progressive": {
+          "Community": 4.75,
+          "Spirituality & Worship": 8.838,
+          "Kitchen": 1.324,
+          "Waste": 0.235,
+          "Energy": 0.309,
+          "Operations & Maintenance": 0.971,
+          "Environmental & Climate Justice": 0.559,
+          "Water": 0.074,
+          "Other": 0.118
+        },
+        "Conservative": {
+          "Community": 5.395,
+          "Spirituality & Worship": 5.275,
+          "Kitchen": 0.928,
+          "Waste": 0.832,
+          "Energy": 1.551,
+          "Operations & Maintenance": 0.671,
+          "Environmental & Climate Justice": 0.24,
+          "Water": 0.066,
+          "Other": 0.072
+        },
+        "Non-Denominational Conservative": {
+          "Community": 4.5,
+          "Spirituality & Worship": 10.25,
+          "Kitchen": 1.0,
+          "Waste": 0.125,
+          "Energy": 0.0,
+          "Operations & Maintenance": 0.0,
+          "Environmental & Climate Justice": 3.0,
+          "Water": 0.0,
+          "Other": 0.0
+        },
+        "Orthodox": {
+          "Community": 0.725,
+          "Spirituality & Worship": 3.362,
+          "Kitchen": 0.7,
+          "Waste": 0.55,
+          "Energy": 0.087,
+          "Operations & Maintenance": 0.113,
+          "Environmental & Climate Justice": 0.125,
+          "Water": 0.0,
+          "Other": 0.0
+        },
+        "Chabad": {
+          "Community": 3.064,
+          "Spirituality & Worship": 5.443,
+          "Kitchen": 0.105,
+          "Waste": 0.018,
+          "Energy": 0.055,
+          "Operations & Maintenance": 0.055,
+          "Environmental & Climate Justice": 0.0,
+          "Water": 0.0,
+          "Other": 0.0
+        }
+      }
+    },
+    "Rep": {
+      "n_env_active_by_denomination": {
+        "Jewish Renewal": 4,
+        "Reconstructionist": 6,
+        "Humanistic": 1,
+        "Reform": 97,
+        "Non-Denominational Progressive": 27,
+        "Conservative": 53,
+        "Non-Denominational Conservative": 3,
+        "Orthodox": 9,
+        "Chabad": 76
+      },
+      "composition": {
+        "Jewish Renewal": {
+          "Community": 0.75,
+          "Spirituality & Worship": 10.0,
+          "Kitchen": 0.0,
+          "Waste": 0.25,
+          "Energy": 0.0,
+          "Operations & Maintenance": 0.5,
+          "Environmental & Climate Justice": 0.0,
+          "Water": 0.0,
+          "Other": 0.0
+        },
+        "Reconstructionist": {
+          "Community": 1.167,
+          "Spirituality & Worship": 16.667,
+          "Kitchen": 7.833,
+          "Waste": 0.0,
+          "Energy": 0.167,
+          "Operations & Maintenance": 0.167,
+          "Environmental & Climate Justice": 0.167,
+          "Water": 0.0,
+          "Other": 0.0
+        },
+        "Humanistic": {
+          "Community": 0.0,
+          "Spirituality & Worship": 1.0,
+          "Kitchen": 0.0,
+          "Waste": 1.0,
+          "Energy": 0.0,
+          "Operations & Maintenance": 0.0,
+          "Environmental & Climate Justice": 0.0,
+          "Water": 0.0,
+          "Other": 0.0
+        },
+        "Reform": {
+          "Community": 4.021,
+          "Spirituality & Worship": 8.299,
+          "Kitchen": 0.701,
+          "Waste": 0.278,
+          "Energy": 0.237,
+          "Operations & Maintenance": 0.093,
+          "Environmental & Climate Justice": 0.206,
+          "Water": 0.082,
+          "Other": 0.113
+        },
+        "Non-Denominational Progressive": {
+          "Community": 1.963,
+          "Spirituality & Worship": 5.185,
+          "Kitchen": 0.407,
+          "Waste": 0.333,
+          "Energy": 0.0,
+          "Operations & Maintenance": 0.407,
+          "Environmental & Climate Justice": 0.111,
+          "Water": 0.0,
+          "Other": 0.0
+        },
+        "Conservative": {
+          "Community": 3.472,
+          "Spirituality & Worship": 6.396,
+          "Kitchen": 0.509,
+          "Waste": 0.509,
+          "Energy": 0.094,
+          "Operations & Maintenance": 0.774,
+          "Environmental & Climate Justice": 0.0,
+          "Water": 0.0,
+          "Other": 0.019
+        },
+        "Non-Denominational Conservative": {
+          "Community": 3.667,
+          "Spirituality & Worship": 3.0,
+          "Kitchen": 3.0,
+          "Waste": 0.0,
+          "Energy": 0.0,
+          "Operations & Maintenance": 0.0,
+          "Environmental & Climate Justice": 0.0,
+          "Water": 0.0,
+          "Other": 0.0
+        },
+        "Orthodox": {
+          "Community": 3.444,
+          "Spirituality & Worship": 3.222,
+          "Kitchen": 0.0,
+          "Waste": 0.444,
+          "Energy": 0.333,
+          "Operations & Maintenance": 0.222,
+          "Environmental & Climate Justice": 0.444,
+          "Water": 0.0,
+          "Other": 0.222
+        },
+        "Chabad": {
+          "Community": 2.382,
+          "Spirituality & Worship": 4.618,
+          "Kitchen": 0.013,
+          "Waste": 0.0,
+          "Energy": 0.066,
+          "Operations & Maintenance": 0.013,
+          "Environmental & Climate Justice": 0.0,
+          "Water": 0.026,
+          "Other": 0.0
+        }
+      }
+    }
+  }
+}

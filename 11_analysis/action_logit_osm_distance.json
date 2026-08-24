@@ -1,0 +1,99 @@
+{
+  "model": "softmax / logistic regression (2 classes)",
+  "outcome": "has_action (>=1 env action) vs zero",
+  "predictors": "z-standardized distance (km) to nearest feature, 7 types",
+  "n": 2561,
+  "n_has_action": 1140,
+  "coefficients": [
+    {
+      "feature": "const",
+      "coef": -0.2204,
+      "odds_ratio_per_sd": 0.8022,
+      "p_value": 3.241701729528976e-08,
+      "or_95ci": [
+        0.7419,
+        0.8674
+      ]
+    },
+    {
+      "feature": "green_space",
+      "coef": -3.9387,
+      "odds_ratio_per_sd": 0.0195,
+      "p_value": 0.0029491504017904457,
+      "or_95ci": [
+        0.0015,
+        0.2613
+      ]
+    },
+    {
+      "feature": "env_hazard",
+      "coef": 1.2879,
+      "odds_ratio_per_sd": 3.6253,
+      "p_value": 0.04013220774390773,
+      "or_95ci": [
+        1.0597,
+        12.4022
+      ]
+    },
+    {
+      "feature": "landfill",
+      "coef": 0.0681,
+      "odds_ratio_per_sd": 1.0705,
+      "p_value": 0.7871995369740294,
+      "or_95ci": [
+        0.6527,
+        1.7557
+      ]
+    },
+    {
+      "feature": "industrial",
+      "coef": 1.6127,
+      "odds_ratio_per_sd": 5.0162,
+      "p_value": 0.18544011311778197,
+      "or_95ci": [
+        0.461,
+        54.579
+      ]
+    },
+    {
+      "feature": "abattoir",
+      "coef": -0.0385,
+      "odds_ratio_per_sd": 0.9623,
+      "p_value": 0.4000360204730905,
+      "or_95ci": [
+        0.8798,
+        1.0525
+      ]
+    },
+    {
+      "feature": "military",
+      "coef": -0.198,
+      "odds_ratio_per_sd": 0.8203,
+      "p_value": 0.3950188246596773,
+      "or_95ci": [
+        0.5198,
+        1.2947
+      ]
+    },
+    {
+      "feature": "airport",
+      "coef": 1.1756,
+      "odds_ratio_per_sd": 3.2402,
+      "p_value": 0.036978163324875024,
+      "or_95ci": [
+        1.0736,
+        9.7794
+      ]
+    }
+  ],
+  "likelihood_ratio_test": {
+    "null_hypothesis": "no distance variable relates to the outcome",
+    "chi2": 13.3771,
+    "df": 7,
+    "p_value": 0.06343601295725296
+  },
+  "mcfadden_pseudo_r2": 0.0038,
+  "cv_accuracy": 0.5537,
+  "majority_baseline": 0.5549,
+  "cv_roc_auc": 0.5201
+}

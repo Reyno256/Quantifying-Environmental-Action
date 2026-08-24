@@ -1,0 +1,22 @@
+services:
+  postgres:
+    build: .
+    container_name: synagogue_db
+    environment:
+      POSTGRES_DB:       ${DB_NAME:-synagogues}
+      POSTGRES_USER:     ${DB_USER:-research}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "127.0.0.1:8989:5432"
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-research} -d ${DB_NAME:-synagogues}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:
